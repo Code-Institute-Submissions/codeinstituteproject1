@@ -1,6 +1,106 @@
+/*********************************All Page Stuff*******************************************/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*********************************Helper Styles*******************************************/
+
+.end-of-section{
+    margin-bottom:5vh;
+}
+
 /*********************************Navbar Styles*******************************************/
+.monkee-nav-logo{
+    height:7vh;
+}
 
 
+/*********************************Header Styles*******************************************/
+.splash{
+    height:70vh;
+    background-image: url("../Images/monkeesplash.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; 
+    background-size: cover;
+}
+
+.monkee-logo-hero{
+    margin-top:15vh;
+    height:40vh;
+}
+
+/*********************************Gigs Styles*******************************************/
+.gigs{
+    padding-top:2vh;
+    background-color:#fffce9;
+    font-family:'Martel', serif;
+    letter-spacing: -1px;
+}
+
+.tour-logo{
+     
+     height:25vh;
+     background-image: url("../Images/monkees-tour.jpg");
+     background-position: center; 
+     background-repeat: no-repeat;
+     background-size:contain;
+     margin-bottom:5vh;
+}
+
+
+.date{
+    text-transform: uppercase;
+    max-width: 60px;
+    max-height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    padding: 7px;
+    border:3px solid #f40513;
+    border-radius: 50%;
+    text-align:center;
+    color:  #f40513;
+}
+
+.city-state{
+    font-size: 1.5em;
+    margin-bottom:0px;
+    text-transform: uppercase;
+}
+
+.bottom-border{
+    height:4px;
+    background-color:#58b7d8;
+    margin-bottom: 35px;
+    width:70%
+}
+
+.gig-button:link{
+    color: #58b7d8;
+    border: 2px solid #58b7d8;
+    padding: 0 4px 0 4px;
+}
+
+
+.gig-button:visited{
+    color: #58b7d8;
+    border: 2px solid #58b7d8;
+    padding: 0 4px 0 4px;
+}
+
+.gig-button:hover{
+    color: #fffce9;
+    background-color:#58b7d8;
+    border: 2px solid #58b7d8;
+    padding: 0 4px 0 4px;
+}
+
+.gig-button:active{
+    color: #fffce9;
+    background-color:#58b7d8;
+    border: 2px solid #58b7d8;
+    padding: 0 4px 0 4px;
+}
 
 /*********************************Footer Styles*******************************************/
 footer{
