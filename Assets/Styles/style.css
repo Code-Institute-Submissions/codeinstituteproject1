@@ -7,7 +7,7 @@ a{
 /*********************************Helper Styles*******************************************/
 
 .end-of-section{
-    margin-bottom:10vh;
+    margin-bottom:5vh;
 }
 
 /*********************************Navbar Styles*******************************************/
@@ -32,20 +32,33 @@ a{
 
 /*********************************Gigs Styles*******************************************/
 .gigs{
-    padding-top:2vh;
+    padding-top:4vh;
     background-color:#fffce9;
     font-family:'Martel', serif;
     letter-spacing: -1.2px;
 }
 
+@media only screen and (max-width: 600px) {
+    .tour-logo{
+       height:25vh; 
+    }
+    .bottom-border{
+        width:40%;
+    }
+}
+
 .tour-logo{
-     
-     height:25vh;
-     background-image: url("../Images/monkees-tour.jpg");
-     background-position: center; 
+     background-image: url("../Images/TIParts/title.png");
      background-repeat: no-repeat;
-     background-size:contain;
+     background-position: center;
+     background-size:90% 100%;
      margin-bottom:5vh;
+}
+
+.band{
+    background-image: url("../Images/TIParts/Band.png");
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 
@@ -76,7 +89,7 @@ a{
     height:4px;
     background-color:#58b7d8;
     margin-bottom: 35px;
-    width:70%
+    width:100%
 }
 
 .gig-button:link{
@@ -113,7 +126,7 @@ a{
 }
 
 .News-title{
-    margin-top:10vh;
+    margin-top:5vh;
     padding: 0 10px;
     font-family:'Martel', serif;
     letter-spacing: -1.2px;
@@ -124,7 +137,7 @@ a{
 .News-Summary{
     padding: 0 10px;
     margin-top:5vh;
-    margin-bottom:10vh;
+    margin-bottom:5vh;
 }
 
 .news-button{
@@ -159,10 +172,65 @@ a{
 }
 
 
+/*********************************Media Styles*******************************************/
+
+.new-media{
+    text-align: center;
+    font-family:'Martel', serif;
+    letter-spacing: -1.2px;
+}
+.video{
+    color:#9e1219;
+    background-color:#fffce9;
+    padding:0;
+}
+
+.audio{
+    color: #1f284f;
+    background-color:#019bb5;
+    padding:0;
+}
+
+.videoframe{
+    height:40vh;
+    margin-bottom: 5vh;
+}
+.audio-c{
+    margin-bottom:5vh;
+}
+.media-title{
+    text-transform:uppercase;
+    font-size:2em;
+    margin-top: 5vh;
+    }
+
+.media-sub-title{
+    font-size:1.5em;
+    margin-bottom: 5vh;
+    }
+
+.media-image{
+    max-height: 40vh;
+}
+
+.media-vid{
+    display:block;
+    height:100%;
+    width:100%;
+    margin-bottom: 5vh;
+}
+
+.media-button{
+    color: inherit;
+    border: 2px solid;
+    padding: 0 4px 0 4px;
+}
+
+
 
 /*********************************Footer Styles*******************************************/
 footer{
-    padding-top:40px;
+    padding-top:8vh;
     height:20vh;
     color:white;
     background-color:black;

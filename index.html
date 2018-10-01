@@ -39,15 +39,17 @@
             </ul>
         </div>
     </nav>
+    <main>
     <header class="fluid-container splash">
     </header>
     <section class="fluid-container gigs">
         <div class="col-12">
             <div class="row">
-                <div class="col-12 col-md-4 tour-logo"></div>
-                <div class="col-12 col-md-8 dates">
+                <div class="d-none d-xl-block col-xl-2"></div>
+                <div class="col-12 col-md-5 col-xl-3 tour-logo"></div>
+                <div class="col-12 col-md-5 col-xl-4 dates">
                     <article class="row">
-                        <div class="col-3">
+                        <div class="d-flex px-0 justify-content-end col-3">
                             <div class="date">mar <br> 6 </div>
                         </div>
                         <div class="col-9">
@@ -58,7 +60,7 @@
                         </div>
                     </article>
                     <article class="row">
-                        <div class="col-3">
+                        <div class="col-3 d-flex px-0 justify-content-end ">
                             <div class="date">mar <br> 8</div>
                         </div>
                         <div class="col-9">
@@ -69,6 +71,8 @@
                         </div>
                     </article>
                 </div>
+                <div class="d-none d-md-block col-md-2 band"></div>
+                <div class="d-none d-xl-block col-xl-2"></div>
             </div>
             <div class="row d-flex justify-content-center">
                 <a href="" class="gig-button end-of-section">More Tour Dates</a>
@@ -91,12 +95,37 @@
                 </article>
             </div>
     </section>
-    <section class="new-media"></section>
+    <section class="fluid-container new-media">
+        <div class="row px-0 mx-0">
+            <article class="col-12 col-md-6 video">
+                 <p class="media-title">New Video:</p>
+                <p class="media-sub-title">Daydream Believer</p>
+                    <div class="col-12 px-0 videoframe">
+                    <iframe class="media-vid"src="https://www.youtube.com/embed/xvqeSJlgaNk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                <a class="media-button end-of-section">More Videos</a>
+                <div class="end-of-section"></div>
+            </article>
+            
+            <article class="col-12 col-md-6 audio">
+                <p class="media-title">Listen To Us:</p>
+                <p class="media-sub-title">I'm a Believer</p>
+                <img class="media-image" src="./Assets/Images/Believer2.jpg" alt="Greatest Hits Album Cover" />
+                <audio class="d-block mx-auto audio-c" controls>
+                  <source src="./Assets/Audio/ImABeliever.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a class="media-button end-of-section">Listen to More</a>
+                <div class="end-of-section"></div>
+            </article>
+        </div>
+    </section>
     <footer class="d-flex justify-content-center">
         <div class="text-center">
             <p>follow us on social media</p>
             <p><i class="fab fa-facebook-square ml-2 mr-2"></i> <i class="fab fa-instagram ml-2 mr-2"></i> <i class="fab fa-twitter-square ml-2 mr-2"></i><i class="fab fa-youtube ml-2 mr-2"></i></p>
         </div>
+    </main>
     </footer>
     <!--Importing JQuery, Popper and  Bootstrap 4 -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
