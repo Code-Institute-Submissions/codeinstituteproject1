@@ -17,17 +17,79 @@ a{
 
 
 /*********************************Header Styles*******************************************/
-.splash{
-    height:60vh;
-    background-image: url("../Images/splash-Image-cropped.jpg");
-    background-repeat: no-repeat; /* Do not repeat the image */
 
+
+.splash{
+    background-image: url("../Images/RepeatingBG.jpg");
     background-size: cover;
+    text-align:center;
+    padding-top:4vh;
+    font-family:'Martel', serif;
+    letter-spacing: -1.2px;
+    text-align: center;
 }
 
-.monkee-logo-hero{
-    margin-top:15vh;
-    height:40vh;
+.monkee-hero{
+     background-image: url("../Images/monkees-hero.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:100% 100%;
+     height: 20vh;
+    
+}
+
+@media only screen and (min-width: 1200px){
+    .monkee-hero{
+        background-size:80% 80%;
+}
+    
+}
+
+.header-title{
+    color:#fffce9;
+    text-shadow: 4px 4px 2px #1f284f;
+    margin-top:2vh;
+    padding: 0 10px;
+    font-family:'Martel', serif;
+    letter-spacing: -1.2px;
+    font-size:2.5em;
+    text-transform: uppercase;
+}
+
+.header-sub-title{
+    color:#fffce9;
+    text-shadow: 4px 4px 2px #1f284f;
+    padding: 0 10px;
+    font-family:'Martel', serif;
+    letter-spacing: -1.2px;
+    font-size:1.5em;
+}
+
+.header-button:link{
+    color: #fffce9;
+    border: 2px solid #fffce9;
+    padding: 0 4px 0 4px;
+}
+
+
+.header-button:visited{
+    color: #fffce9;
+    border: 2px solid #fffce9;
+    padding: 0 4px 0 4px;
+}
+
+.header-button:hover{
+    color: #65a4a9;
+    background-color:#fffce9;
+    border: 2px solid #65a4a9;
+    padding: 0 4px 0 4px;
+}
+
+.header-button:active{
+    color:#65a4a9;
+    background-color:#fffce9;
+    border: 2px solid #65a4a9;
+    padding: 0 4px 0 4px;
 }
 
 /*********************************Gigs Styles*******************************************/
@@ -47,14 +109,6 @@ a{
      margin-bottom:5vh;
 }
 
-@media only screen and (max-width: 600px) {
-    .tour-logo{
-       height:25vh; 
-    }
-    .bottom-border{
-        width:40%;
-    }
-}
 
 .band{
     background-image: url("../Images/TIParts/Band.png");
@@ -118,6 +172,15 @@ a{
     background-color:#58b7d8;
     border: 2px solid #58b7d8;
     padding: 0 4px 0 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .tour-logo{
+       height:25vh; 
+    }
+    .bottom-border{
+        width:40%;
+    }
 }
 
 /**********************************News Styles********************************************/
@@ -189,7 +252,7 @@ a{
 }
 
 
-.family::after{
+.family::before{
     content: "";
     background: url(../Images/navbar-logo.png);
     background-repeat:no-repeat;
@@ -201,6 +264,60 @@ a{
     position: absolute;
 }
 
+
+.merch-button:link{
+    color: #fffce9;
+    border: 2px solid #fffce9;
+    padding: 0 4px 0 4px;
+}
+
+
+.merch-button:visited{
+    color: #fffce9;
+    border: 2px solid #fffce9;
+    padding: 0 4px 0 4px;
+}
+
+.merch-button:hover{
+    color: #23262f;
+    background-color:#fffce9;
+    border: 2px solid #23262f;
+    padding: 0 4px 0 4px;
+}
+
+.merch-button:active{
+    color: #23262f;
+    background-color:#fffce9;
+    border: 2px solid #23262f;
+    padding: 0 4px 0 4px;
+}
+
+.fans-button:link{
+    color: #58b7d8;
+    border: 2px solid #58b7d8;
+    padding: 0 4px 0 4px;
+}
+
+
+.fans-button:visited{
+    color: #58b7d8;
+    border: 2px solid #58b7d8;
+    padding: 0 4px 0 4px;
+}
+
+.fans-button:hover{
+    color: #1f284f;
+    background-color:#58b7d8;
+    border: 2px solid #1f284f;
+    padding: 0 4px 0 4px;
+}
+
+.fans-button:active{
+    color: #1f284f;
+    background-color:#58b7d8;
+    border: 2px solid #1f284f;
+    padding: 0 4px 0 4px;
+}
 
 /*********************************Media Styles*******************************************/
 
@@ -215,19 +332,6 @@ a{
     padding:0;
 }
 
-.audio{
-    color: #1f284f;
-    background-color:#019bb5;
-    padding:0;
-}
-
-.videoframe{
-    height:40vh;
-    margin-bottom: 5vh;
-}
-.audio-c{
-    margin-bottom:5vh;
-}
 .media-title{
     font-family:'Martel', serif;
     letter-spacing: -1.2px;
@@ -248,12 +352,6 @@ a{
     height: 30vh;
 }
 
-.media-vid{
-    display:block;
-    height:100%;
-    width:100%;
-    margin-bottom: 5vh;
-}
 
 .media-button{
     text-shadow: none;
@@ -269,6 +367,32 @@ a{
     margin-top:5vh;
 }
 
+.media-button:link{
+    color: #fffce9;
+    border: 2px solid #fffce9;
+    padding: 0 4px 0 4px;
+}
+
+
+.media-button:visited{
+    color: #fffce9;
+    border: 2px solid #fffce9;
+    padding: 0 4px 0 4px;
+}
+
+.media-button:hover{
+    color: #4bb7d8;
+    background-color:#fffce9;
+    border: 2px solid #4bb7d8;
+    padding: 0 4px 0 4px;
+}
+
+.media-button:active{
+   color: #4bb7d8;
+    background-color:#fffce9;
+    border: 2px solid #4bb7d8;
+    padding: 0 4px 0 4px;
+}
 
 
 /*********************************Footer Styles*******************************************/
@@ -277,4 +401,21 @@ footer{
     height:20vh;
     color:white;
     background-color:black;
+}
+
+.social-block{
+    display:flex;
+    justify-content: center;
+}
+
+.social-button{
+    height:4vh;
+    color:#fff;
+    transition: all .2s;
+}
+
+.social-button:hover{
+    color:#fff;
+    font-size: 1.2em;
+    transition: all .2s;
 }
