@@ -24,7 +24,6 @@ a{
     background-size: cover;
     text-align:center;
     padding-top:4vh;
-    font-family:'Martel', serif;
     letter-spacing: -1.2px;
     text-align: center;
 }
@@ -46,11 +45,11 @@ a{
 }
 
 .header-title{
+    font-family:'Martel', serif;
     color:#fffce9;
     text-shadow: 4px 4px 2px #1f284f;
     margin-top:2vh;
     padding: 0 10px;
-    font-family:'Martel', serif;
     letter-spacing: -1.2px;
     font-size:2.5em;
     text-transform: uppercase;
@@ -63,6 +62,14 @@ a{
     font-family:'Martel', serif;
     letter-spacing: -1.2px;
     font-size:1.5em;
+}
+
+.header-text{
+    color:#fffce9;
+    text-shadow: 1px 1px 10px #1f284f;
+    padding: 0 10px;
+    letter-spacing: -1.2px;
+    font-size:0.9em;
 }
 
 .header-button:link{
@@ -418,4 +425,98 @@ footer{
     color:#fff;
     font-size: 1.2em;
     transition: all .2s;
+}
+
+/**********************************Bios Page*********************************************/
+.monkee-band-bio{
+    background-image:url(../Images/splash-Image.jpg);
+    height:30vh;
+    background-size:100% 100%;
+    margin-bottom: 2vh;
+
+}
+
+.bio-content{
+    position:relative;
+    z-index:2;
+    padding:2vh;
+}
+
+.bio{
+    color:#fffce9;
+    position:relative;
+    background-size: 100% 100%;
+}
+
+.bio-title{
+    font-family:'Martel', serif;
+    font-size:2em;
+    letter-spacing: -1.2px;
+    text-shadow:4px 4px 4px #1f284f;
+}
+
+.bio-img{
+    height:100%;
+    }
+
+.peter-mid, .micky-mid{
+    padding-left:0;
+}
+
+.mike-mid, .davey-mid{
+    padding-right:0;
+}
+
+.bio-mickey{
+        background-color:rgba(0,0,0,.9);
+    } 
+.bio-mike{
+        background-color:#1f284f
+    } 
+.bio-peter{
+        background-color: #4bb7d8;
+    } 
+.bio-Davey{
+        background: #dc3545
+    } 
+
+
+@media (max-width:770px)  { 
+    .bio::after{
+    content: "";
+    
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index:1;
+    }
+
+    .bio-mickey::after{
+        background: url(../Images/Bios/md.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    } 
+       .bio-mickey::after{
+        background: url(../Images/Bios/md.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    } 
+     .bio-mike::after{
+        background: url(../Images/Bios/mn.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    } 
+    .bio-peter::after{
+        background: url(../Images/Bios/pt.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    } 
+     .bio-Davey::after{
+        background: url(../Images/Bios/dj.jpg);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    } 
 }
