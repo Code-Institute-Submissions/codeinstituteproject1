@@ -16,16 +16,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light d-flex justify-content-between navbar-expand-md">
+    <nav class="navbar d-flex justify-content-between navbar-expand-md nav-custom">
         <a class="navbar-brand" href="./index.html"><img class="monkee-nav-logo" src="./Assets/Images/monkees-logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+             <i class="fas fa-bars"></i>
         </button>
 
         <div class="navbar-collapse collapse" id="navlinks">
             <ul class="navbar-nav ml-auto p-2">
-                <li class="nav-item">
-                    <a class="nav-link" href="./bios.html">Bios</a>
+                <li class="nav-item active">
+                    <a class="nav-link " href="./bios.html">Bios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./music.html">Music</a>
@@ -56,53 +56,86 @@
             </div>
         </div>
     </header>
-    <main>
-        <section class="bio bio-mickey">
-            <div class="row px-0 mx-0">
-            <aside class="d-none d-md-flex col-md-4 micky-mid"><img class="bio-img" src="./Assets/Images/Bios/md.jpg" /></aside>
-            <article class="bio-content col-md-8 col-xl-3">
-                <p class="bio-title">Micky Dolenz</p>
-                <p class="bio-title">Drums, Vocals</p>
-                <p>In 1965, Dolenz was cast in the television sitcom The Monkees and became the drummer and a lead vocalist in the band created for the show. He was not actually a drummer and needed lessons even to be able to mime credibly, but eventually
-                    was taught how to play properly. By the time The Monkees went on tour in late 1966, Dolenz was competent enough to play the drums himself.</p>
-                </aticle>
-                </div>
-        </section>
+    <main class="fluid-container bios-main">
+        <div class="row mx-0 px-0">
+            <div class="col-12 px-0 col-xl-8 offset-xl-2">
+                <section class="bio bio-mickey">
+                    <div class="row px-0 mx-0">
+                        <aside class="d-none d-md-flex col-md-4 micky-mid"><img class="bio-img" src="./Assets/Images/Bios/md.jpg" /></aside>
+                        <article class="bio-content col-md-8">
+                            <p class="bio-title">Micky Dolenz</p>
+                            <p class="bio-sub-title">Drums, Vocals</p>
+                            <p>In 1965, Dolenz was cast in the television sitcom The Monkees and became the drummer and a lead vocalist in the band created for the show. He was not actually a drummer and needed lessons even to be able to mime credibly, but
+                                eventually was taught how to play properly. By the time The Monkees went on tour in late 1966, Dolenz was competent enough to play the drums himself.</p>
+                            <div class="d-flex bio-social">
+                                <div><a href="" class="social-button"><i class="fas fa-globe ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Mickey's Website"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-facebook-square ml-2 mr-2"data-toggle="tooltip" data-placement="bottom" title="Mickey's Facebook"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-instagram ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Mickey's Instagram"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-twitter-square ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Mickey's Twitter"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-youtube ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Mickey's Youtube"></i></a></div>
+                            </div>
+                            </aticle>
+                    </div>
+                </section>
 
-        <section class="bio bio-mike">
-            <div class="row px-0 mx-0">
-            <article class="bio-content col-md-8">
-                <p class="bio-title">Michael Nesmith</P>
-                <p class="bio-title">Guitar, Vocals</p>
-                <p>From 1965 to early 1970, Nesmith was a member of The Monkees. According to his May 2015 interview on Gilbert Gottfried's podcast, someone showed him a copy of the famous press advertisement asking for "four insane boys" so he applied for
-                    the job. Nesmith won his role largely by appearing blasé when he auditioned. He rode his motorcycle to the audition, and wore a wool hat to keep his hair out of his eyes; producers Bob Rafelson and Bert Schneider remembered "Wool Hat",
-                    and called Nesmith back.</p>
-            </article>
-            <aside class="d-none d-md-flex justify-content-end col-md-4 mike-mid"><img class="bio-img" src="./Assets/Images/Bios/mn.jpg" /></aside>
+                <section class="bio bio-mike">
+                    <div class="row px-0 mx-0">
+                        <article class="bio-content col-md-8">
+                            <p class="bio-title">Michael Nesmith</P>
+                            <p class="bio-sub-title">Guitar, Vocals</p>
+                            <p>From 1965 to early 1970, Nesmith was a member of The Monkees. According to his May 2015 interview on Gilbert Gottfried's podcast, someone showed him a copy of the famous press advertisement asking for "four insane boys" so
+                                he applied for the job. Nesmith won his role largely by appearing blasé when he auditioned. He rode his motorcycle to the audition, and wore a wool hat to keep his hair out of his eyes; producers Bob Rafelson and Bert Schneider
+                                remembered "Wool Hat", and called Nesmith back.</p>
+                            <div class="d-flex bio-social">
+                                <div><a href="" class="social-button"><i class="fas fa-globe ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Mike's Website"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-facebook-square ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Mike's Facebook"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-instagram ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Mike's Instagram"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-twitter-square ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Mike's Twitter"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-youtube ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Mike's Youtube"></i></a></div>
+                            </div>
+                        </article>
+                        <aside class="d-none d-md-flex justify-content-end col-md-4 mike-mid"><img class="bio-img" src="./Assets/Images/Bios/mn.jpg" /></aside>
+                    </div>
+                </section>
+                <section class="bio bio-peter">
+                    <div class="row px-0 mx-0">
+                        <aside class="d-none d-md-flex col-md-4 peter-mid"><img class="bio-img" src="./Assets/Images/Bios/pt.jpg" /></aside>
+                        <article class="bio-content col-md-8">
+                            <p class="bio-title">Peter Tork</P>
+                            <p class="bio-sub-title">Bass Guitar, Vocals</p>
+                            <p>Stephen Stills had auditioned for the new television series about four pop-rock musicians but was turned down because the show's producers felt his hair and teeth would not photograph well on camera. They asked Stills if he
+                                knew of someone with a similar "open, Nordic look," and Stills suggested Tork audition for the part. Tork got the job and became one of the four members of the Monkees.</p>
+                            <div class="d-flex bio-social">
+                                <div><a href="" class="social-button"><i class="fas fa-globe ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Peter's Website"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-facebook-square ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Peter's Facebook"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-instagram ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Peter's Instagram"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-twitter-square ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Peter's Twitter"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-youtube ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Peter's Youtube"></i></a></div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section class="bio bio-Davey">
+                    <div class="row px-0 mx-0">
+                        <article class="bio-content col-md-8">
+                            <p class="bio-title">Davey Jones</P>
+                            <p class="bio-sub-title">Lead Vocals, Percussion</p>
+                            <p>From 1966 to 1971, Jones was a member of the Monkees, a pop-rock group formed expressly for a television show of the same name. With Screen Gems producing the series, Jones was shortlisted for auditions, as he was the only
+                                Monkee who was signed to a deal with the studio, but still had to meet producers Bob Rafelson's and Bert Schneider's standards. Jones sang lead vocals on many of the Monkees' recordings, including "I Wanna Be Free" and
+                                "Daydream Believer".</p>
+                            <div class="d-flex bio-social">
+                                <div><a href="" class="social-button"><i class="fas fa-globe ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Davey's Website"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-facebook-square ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Davey's Facebook"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-instagram ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Davey's Instagram"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-twitter-square ml-2 mr-2"  data-toggle="tooltip" data-placement="bottom" title="Davey's Twitter"></i></a></div>
+                                <div><a href="" class="social-button"><i class="fab fa-youtube ml-2 mr-2" data-toggle="tooltip" data-placement="bottom" title="Davey's Youtube"></i></a></div>
+                            </div>
+                        </article>
+                        <aside class="d-none d-md-flex justify-content-end col-md-4 davey-mid"><img class="bio-img" src="./Assets/Images/Bios/dj.jpg" /></aside>
+                    </div>
+                </section>
             </div>
-        </section>
-        <section class="bio bio-peter">
-            <div class="row px-0 mx-0">
-            <aside class="d-none d-md-flex col-md-4 peter-mid"><img class="bio-img" src="./Assets/Images/Bios/pt.jpg" /></aside>
-            <article class="bio-content col-md-8">
-                <p class="bio-title">Peter Tork</P>
-                <p class="bio-title">Bass Guitar, Vocals</p>
-                <p>Stephen Stills had auditioned for the new television series about four pop-rock musicians but was turned down because the show's producers felt his hair and teeth would not photograph well on camera. They asked Stills if he knew of someone
-                    with a similar "open, Nordic look," and Stills suggested Tork audition for the part. Tork got the job and became one of the four members of the Monkees.</p>
-            </article>
-            </div>
-        </section>
-        <section class="bio bio-Davey">
-            <div class="row px-0 mx-0">
-            <article class="bio-content col-md-8">
-                <p class="bio-title">Davey Jones</P>
-                <p class="bio-title">Lead Vocals, Percussion</p>
-                <p>From 1966 to 1971, Jones was a member of the Monkees, a pop-rock group formed expressly for a television show of the same name. With Screen Gems producing the series, Jones was shortlisted for auditions, as he was the only Monkee who was
-                    signed to a deal with the studio, but still had to meet producers Bob Rafelson's and Bert Schneider's standards. Jones sang lead vocals on many of the Monkees' recordings, including "I Wanna Be Free" and "Daydream Believer".</p>
-            </article>
-            <aside class="d-none d-md-flex justify-content-end col-md-4 davey-mid"><img class="bio-img" src="./Assets/Images/Bios/dj.jpg" /></aside>
-            </div>
-        </section>
+        </div>
     </main>
     <footer class="d-flex justify-content-center">
         <div class="text-center">

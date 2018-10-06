@@ -14,8 +14,26 @@ a{
 .monkee-nav-logo{
     height:4vh;
 }
-
-
+.nav-custom {
+    background-color: #222a50;
+}
+/* change the brand and text color */
+.nav-custom .navbar-brand,
+.nav-custom .navbar-text {
+    color: #fffce9;
+}
+/* change the link color */
+.nav-custom .navbar-nav .nav-link {
+    color: rgba(255, 252, 233, 0.7);
+}
+/* change the color of active or hovered links */
+.nav-custom .nav-item.active .nav-link,
+.nav-custom .nav-item:hover .nav-link {
+    color: rgba(255, 252, 233, 1);
+}
+.navbar-toggler{
+    color: rgba(255, 252, 233, 1);
+}
 /*********************************Header Styles*******************************************/
 
 
@@ -70,6 +88,10 @@ a{
     padding: 0 10px;
     letter-spacing: -1.2px;
     font-size:0.9em;
+}
+
+.header-button{
+     font-family:'Martel', serif;
 }
 
 .header-button:link{
@@ -436,6 +458,11 @@ footer{
 
 }
 
+.bios-main{
+    padding:0px;
+    background-color: #fffce9;
+}
+
 .bio-content{
     position:relative;
     z-index:2;
@@ -455,6 +482,14 @@ footer{
     text-shadow:4px 4px 4px #1f284f;
 }
 
+.bio-sub-title{
+    font-family:'Martel', serif;
+    font-size:1.25em;
+    font-style:italic;
+    letter-spacing: -1.5px;
+    text-shadow:4px 4px 4px #1f284f;
+}
+
 .bio-img{
     height:100%;
     }
@@ -465,6 +500,11 @@ footer{
 
 .mike-mid, .davey-mid{
     padding-right:0;
+}
+
+.bio-social{
+    height:5vh;
+    margin-bottom:2vh;
 }
 
 .bio-mickey{
