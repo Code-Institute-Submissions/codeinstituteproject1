@@ -90,7 +90,7 @@
                     <div class="d-none d-xl-block col-xl-2"></div>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <a href="" class="gig-button end-of-section">More Tour Dates</a>
+                    <a href="https://www.facebook.com/pg/TheMonkees/events/?ref=page_internal" target="_blank" class="gig-button end-of-section">More Tour Dates</a>
                 </div>
             </div>
         </section>
@@ -119,11 +119,10 @@
                                 <p class="News-Summary">Join the Monkee Troop today for priority access to shows, exclusive discounts in the online store, early entry to shows and more </p>
                             </div>
                             <div class="mt-auto end-of-section">
-                                <a href="" class="news-button fans-button align-self-end">Sign Up Now</a>
+                                <a href="" class="news-button fans-button align-self-end" data-toggle="modal" data-target="#mailing-list">Sign Up Now</a>
                             </div>
                         </div>
                         <div class="d-none d-lg-block col-lg-5 mail">
-                            <!--<img class="img-fluid lg-image" src="./Assets/Images/fanmail.png">-->
                         </div>
                     </div>
                 </article>
@@ -153,7 +152,7 @@
                                     <p class="media-sub-title">The Greatest Hits</p>
                                     <img class="img-fluid media-image" src="./Assets/Images/cover.jpg" />
                                     <div class="button-block end-of-section">
-                                        <a href="https://www.amazon.com/Monkees-Greatest-Hits/dp/B0000033O3" target ="_Blank" class="media-button">Purchase</a>
+                                        <a href="https://www.amazon.com/Monkees-Greatest-Hits/dp/B0000033O3" target="_Blank" class="media-button">Purchase</a>
                                     </div>
                                 </article>
 
@@ -175,15 +174,36 @@
         <footer class="d-flex justify-content-center">
             <div class="text-center">
                 <p>follow us on social media</p>
-                   <div class="social-block">
-                    <div><a href="https://www.facebook.com/TheMonkees/" target ="_blank" class="social-button"><i class="fab fa-facebook-square ml-2 mr-2"></i></a></div>
-                    <div><a href="https://www.instagram.com/themonkees/?hl=en" target ="_blank" class="social-button"><i class="fab fa-instagram ml-2 mr-2"></i></a></div>
-                    <div><a href="https://twitter.com/themonkees?lang=en" target="_blank" class="social-button"><i class="fab fa-twitter-square ml-2 mr-2"></i></a></div> 
+                <div class="social-block">
+                    <div><a href="https://www.facebook.com/TheMonkees/" target="_blank" class="social-button"><i class="fab fa-facebook-square ml-2 mr-2"></i></a></div>
+                    <div><a href="https://www.instagram.com/themonkees/?hl=en" target="_blank" class="social-button"><i class="fab fa-instagram ml-2 mr-2"></i></a></div>
+                    <div><a href="https://twitter.com/themonkees?lang=en" target="_blank" class="social-button"><i class="fab fa-twitter-square ml-2 mr-2"></i></a></div>
                     <div><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank" class="social-button"><i class="fab fa-youtube ml-2 mr-2"></i></a></div>
                 </div>
             </div>
     </main>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mailing-list" tabindex="-1" role="dialog" aria-labelledby="mailing-list-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mailing-list-label">Sign Up to the Monkee Troop</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" name="fname" placeholder="Email Address">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Importing JQuery, Popper and  Bootstrap 4 -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
