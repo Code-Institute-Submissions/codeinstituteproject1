@@ -1,12 +1,14 @@
-# User Centric Frontend Development Milestone Project
-# Yet to be titled
+# User Centric Frontend Development Milestone Project - Hey Hey We're the Monkees
 
-One or two paragraphs providing an overview of your project.
+In this project I have created a new website for the band "The Monkees". The website is a one stop shop for all things monkees. Fans
+can come and listen to their favourite tracks, watch videos and find links to the various social media platforms that their favourite
+Monkees use.
 
-Essentially, this part is your sales pitch.
+In this project I have utilised mobile first design principles to create a responsive webpage that is intended to look good and
+and perform well on any size of device. I have also put good user experience at the front and center of all designs and have strived to create an intuitive and enjoyable journey through all things Monkee for my users. 
  
 ## UX
- 
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
