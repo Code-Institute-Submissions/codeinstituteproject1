@@ -1,281 +1,298 @@
 /*********************************Page Setup Stuff*******************************************/
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
 
 /*********************************Custom Buttons********************************************/
-button{
-    outline:none !important;
+
+button {
+    outline: none !important;
 }
 
-.button-wrapper{
-    display:flex;
-    height:50px;
+.button-wrapper {
+    display: flex;
+    height: 50px;
 }
 
-.monkee-button{
-  height:100%;
-  text-shadow:none;
-  position: relative;
-  display: inline-block;
-  border: 2px solid;
-  border-bottom: 6px solid;
-  border-radius: 10px;
-  outline:none;
-  transition: all 0.1s;
-    
+.monkee-button {
+    height: 100%;
+    text-shadow: none;
+    position: relative;
+    display: inline-block;
+    border: 2px solid;
+    border-bottom: 6px solid;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.1s;
+
 }
 
-.monkee-button:hover{
-  top: 3px;
-  border-bottom: 4px solid;
+.monkee-button:hover {
+    top: 3px;
+    border-bottom: 4px solid;
 }
 
-.monkee-button:active{
-  top: 5px;
-  border-bottom: 2px solid;
+.monkee-button:active {
+    top: 5px;
+    border-bottom: 2px solid;
 }
 
 /*************************************Button Colours*****************************************/
 
-.white-on-red{
+.white-on-red {
     color: #fff;
     background-color: rgb(239, 8, 20);
     border-color: #151515;
     transition: color, background-color 0.4s ease-in-out;
 }
 
-.white-on-red:hover, .white-on-red:active{
-   color: #fffce9;
-   border-color: #0e0e0e;
-   background-color: rgb(230, 13, 22);
+.white-on-red:hover,
+.white-on-red:active {
+    color: #fffce9;
+    border-color: #0e0e0e;
+    background-color: rgb(230, 13, 22);
 }
 
-.white-on-dblue{
+.white-on-dblue {
     color: #fff;
     background-color: rgb(31, 40, 79);
     border-color: #58b7d8;
     transition: color, background-color 0.4s ease-in-out;
 }
 
-.white-on-dblue:hover, .white-on-dblue:active{
-   color: #fffce9;
-   border-color: #58b7d8;
-   background-color: rgb(31, 40, 79);
+.white-on-dblue:hover,
+.white-on-dblue:active {
+    color: #fffce9;
+    border-color: #58b7d8;
+    background-color: rgb(31, 40, 79);
 }
 
-.white-on-lblue{
-   color: #fffce9;
-   border-color:rgb(31, 40, 79) ;
-   background-color: #58b7d8;
-   
+.white-on-lblue {
+    color: #fffce9;
+    border-color: rgb(31, 40, 79);
+    background-color: #58b7d8;
+
     transition: color, background-color 0.4s ease-in-out;
 }
 
-.white-on-lblue:hover, .white-on-lblue:active{
-   color: #fffce9;
-   border-color:rgb(31, 40, 79) ;
-   background-color: #58b7d8;
-   
+.white-on-lblue:hover,
+.white-on-lblue:active {
+    color: #fffce9;
+    border-color: rgb(31, 40, 79);
+    background-color: #58b7d8;
+
 }
 
 /*********************************Helper Styles*******************************************/
 
-.end-of-section{
-    margin-bottom:5vh;
+.end-of-section {
+    margin-bottom: 5vh;
 }
 
-.remove-margin-x{
-  margin-left:0px;
-  margin-right:0px;
+.remove-margin-x {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.off-white{
-    color:#fffce9;
+.off-white {
+    color: #fffce9;
 }
 
 /*********************************Text Styles*********************************************/
 
-.monkee-font{
-    font-family:'Martel', serif;
-    color:#fffce9;
-    
+.monkee-font {
+    font-family: 'Martel', serif;
+    color: #fffce9;
+
     letter-spacing: -1.2px;
 }
-.title{
+
+.title {
     text-shadow: 4px 4px 2px #1f284f;
-    margin-top:2vh;
+    margin-top: 2vh;
     padding: 0 10px;
-    font-size:2.5em;
+    font-size: 2.5em;
     text-transform: uppercase;
 }
 
-.sub-title{
-   
+.sub-title {
+
     text-shadow: 4px 4px 2px #1f284f;
     padding: 0 10px;
-    font-size:1.5em;
+    font-size: 1.5em;
 }
 
-.text{
+.text {
     margin: 0 auto;
     text-shadow: 1px 1px 10px #1f284f;
     padding: 0 10px;
     letter-spacing: -1.2px;
-    max-width:60vw;
+    max-width: 60vw;
 }
 
 
 
 /*********************************Navbar Styles*******************************************/
-.monkee-nav-logo{
-    height:4vh;
+
+.monkee-nav-logo {
+    height: 4vh;
 }
+
 .nav-custom {
     background-color: #222a50;
 }
+
 /* change the brand and text color */
+
 .nav-custom .navbar-brand,
 .nav-custom .navbar-text {
     color: #fffce9;
 }
+
 /* change the link color */
+
 .nav-custom .navbar-nav .nav-link {
     color: rgba(255, 252, 233, 0.7);
 }
+
 /* change the color of active or hovered links */
+
 .nav-custom .nav-item.active .nav-link,
 .nav-custom .nav-item:hover .nav-link {
     color: rgba(255, 252, 233, 1);
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: rgba(255, 252, 233, 1);
 }
+
 /*********************************Header Styles*******************************************/
 
-
-.splash{
+.splash {
     background-image: url("../Images/RepeatingBG.jpg");
     background-size: cover;
-    padding-top:4vh;
+    padding-top: 4vh;
 }
 
-.monkee-hero{
-    display:block;
-    margin:auto;
-    width:100%;
+.monkee-hero {
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 
 
 /*********************************Gigs Styles*******************************************/
-.gigs{
-    padding-top:4vh;
-    background-color:#fffce9;
-    font-family:'Martel', serif;
+
+.gigs {
+    padding-top: 4vh;
+    background-color: #fffce9;
+    font-family: 'Martel', serif;
     letter-spacing: -1.2px;
 }
 
 
-.tour-logo{
-     background-image: url("../Images/TIParts/title.png");
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size:contain;
-     margin-bottom:5vh;
+.tour-logo {
+    background-image: url("../Images/TIParts/title.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 5vh;
 }
 
 
-.band{
+.band {
     background-image: url("../Images/TIParts/Band.png");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
 
 
-.date{
+.date {
     text-transform: uppercase;
     max-width: 60px;
     max-height: 60px;
     min-width: 60px;
     min-height: 60px;
     padding: 7px;
-    border:3px solid #f40513;
+    border: 3px solid #f40513;
     border-radius: 50%;
-    text-align:center;
-    color:  #f40513;
+    text-align: center;
+    color: #f40513;
 }
 
-.city-state{
+.city-state {
     font-size: 1.5em;
-    margin-bottom:0px;
+    margin-bottom: 0px;
     text-transform: uppercase;
 }
 
-.Venue{
+.Venue {
     font-style: italic;
 }
 
-.bottom-border{
-    height:4px;
-    background-color:#58b7d8;
+.bottom-border {
+    height: 4px;
+    background-color: #58b7d8;
     margin-bottom: 35px;
-    width:100%
+    width: 100%
 }
 
 
 @media only screen and (max-width: 768px) {
-    .tour-logo{
-       height:25vh; 
+    .tour-logo {
+        height: 25vh;
     }
-    .bottom-border{
-        width:40%;
+    .bottom-border {
+        width: 40%;
     }
 }
 
 /**********************************News Styles********************************************/
 
-.news{
-    text-align:center;
+.news {
+    text-align: center;
 }
 
 
-.news-button{
-    font-family:'Martel', serif;
+.news-button {
+    font-family: 'Martel', serif;
     letter-spacing: -1.2px;
-    border:2px solid;
+    border: 2px solid;
     margin-top: 5vh;
     padding: 4px 8px 4px 8px;
 
 }
-.merch{
-    background-image:url("../Images/merch.jpg");
-    background-size:cover;
+
+.merch {
+    background-image: url("../Images/merch.jpg");
+    background-size: cover;
     color: #fffce9
 }
 
-.news-picture-box{
-    overflow:hidden;
+.news-picture-box {
+    overflow: hidden;
 }
 
-.news-picture-box img{
-  width:100%;
+.news-picture-box img {
+    width: 100%;
 }
-    
 
 
-.family{
-    background-color:#1f284f;
-    color:#58b7d8;
+
+.family {
+    background-color: #1f284f;
+    color: #58b7d8;
     position: relative;
 }
 
 
 
-.family::before{
+.family::before {
     content: "";
     background: url(../Images/navbar-logo.png);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     opacity: 0.1;
     top: 0;
     left: 0;
@@ -285,347 +302,369 @@ button{
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .news-content {
+        height: 360px;
+    }
+}
 
 
 /*********************************Media Styles*******************************************/
 
-.new-media{
+.new-media {
     text-align: center;
     background-image: url("../Images/greatest-hits-bg.jpg");
     background-repeat: repeat;
-    padding:0;
+    padding: 0;
 }
 
-.media-image{
+.media-image {
     height: 30vh;
 }
 
 
-.button-block{
-    margin-top:5vh;
+.button-block {
+    margin-top: 5vh;
 }
 
-.album-title{
-    height:72px;
+.album-title {
+    height: 72px;
 }
 
 
 /*********************************Footer Styles*******************************************/
-footer{
-    padding-top:8vh;
+
+footer {
+    padding-top: 8vh;
     padding-bottom: 5vh;
-    height:25vh;
-    color:white;
-    background-color:black;
+    height: 25vh;
+    color: white;
+    background-color: black;
 }
 
-.social-block{
-    
-    display:flex;
+.social-block {
+
+    display: flex;
     justify-content: center;
 }
 
-.social-button{
-    font-size:1.5em;
-    position:relative;
-    top:7px;
-    height:4vh;
-    color:#fff;
+.social-button {
+    font-size: 1.5em;
+    position: relative;
+    top: 7px;
+    height: 4vh;
+    color: #fff;
     transition: all .2s;
 }
 
-.social-button:hover{
+.social-button:hover {
     top: 0px;
-    color:#fff;
+    color: #fff;
     font-size: 2em;
     transition: all .2s;
 }
 
 /**********************************Bios Page*********************************************/
-.monkee-band-bio{
-    background-image:url(../Images/splash-Image.jpg);
-    height:30vh;
-    background-size:100% 100%;
+
+.monkee-band-bio {
+    background-image: url(../Images/splash-Image.jpg);
+    height: 30vh;
+    background-size: 100% 100%;
     margin-bottom: 2vh;
 
 }
 
-.bios-main{
-    padding:0px;
+.bios-main {
+    padding: 0px;
     background-color: #fffce9;
 }
 
-.bio-content{
-    position:relative;
-    z-index:2;
-    padding:2vh;
+.bio-content {
+    position: relative;
+    z-index: 2;
+    padding: 2vh;
 }
 
-.bio{
-    color:#fffce9;
-    position:relative;
+.bio {
+    color: #fffce9;
+    position: relative;
     background-size: 100% 100%;
 }
 
-.bio-title{
-    font-family:'Martel', serif;
-    font-size:2em;
+.bio-title {
+    font-family: 'Martel', serif;
+    font-size: 2em;
     letter-spacing: -1.2px;
-    text-shadow:4px 4px 4px #1f284f;
+    text-shadow: 4px 4px 4px #1f284f;
 }
 
-.bio-sub-title{
-    font-family:'Martel', serif;
-    font-size:1.25em;
-    font-style:italic;
+.bio-sub-title {
+    font-family: 'Martel', serif;
+    font-size: 1.25em;
+    font-style: italic;
     letter-spacing: -1.5px;
-    text-shadow:4px 4px 4px #1f284f;
+    text-shadow: 4px 4px 4px #1f284f;
 }
 
-.bio-img{
-    height:80%;
+.bio-img {
+    height: 80%;
     width: 80%;
-    margin:auto;
-    box-shadow: 4px 4px 2px rgba(0,0,0,0.5);
-    border-radius:10px;
-    
+    margin: auto;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+
+.peter-mid,
+.micky-mid {
+    padding-left: 0;
+}
+
+.mike-mid,
+.davey-mid {
+    padding-right: 0;
+}
+
+.bio-social {
+    height: 5vh;
+    margin-bottom: 2vh;
+}
+
+.bio-mickey {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.bio-mike {
+    background-color: #1f284f
+}
+
+.bio-peter {
+    background-color: #4bb7d8;
+}
+
+.bio-Davey {
+    background: #dc3545
+}
+
+
+@media (max-width:770px) {
+    .bio::after {
+        content: "";
+
+        opacity: 0.4;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: 1;
     }
 
-.peter-mid, .micky-mid{
-    padding-left:0;
-}
-
-.mike-mid, .davey-mid{
-    padding-right:0;
-}
-
-.bio-social{
-    height:5vh;
-    margin-bottom:2vh;
-}
-
-.bio-mickey{
-        background-color:rgba(0,0,0,.9);
-    } 
-.bio-mike{
-        background-color:#1f284f
-    } 
-.bio-peter{
-        background-color: #4bb7d8;
-    } 
-.bio-Davey{
-        background: #dc3545
-    } 
-
-
-@media (max-width:770px)  { 
-    .bio::after{
-    content: "";
-    
-    opacity: 0.4;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index:1;
+    .bio-mickey::after {
+        background: url(../Images/Bios/md.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
-
-    .bio-mickey::after{
+    .bio-mickey::after {
         background: url(../Images/Bios/md.jpg);
-        background-size:100% 100%;
-        background-repeat:no-repeat;
-    } 
-       .bio-mickey::after{
-        background: url(../Images/Bios/md.jpg);
-        background-size:100% 100%;
-        background-repeat:no-repeat;
-    } 
-     .bio-mike::after{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bio-mike::after {
         background: url(../Images/Bios/mn.jpg);
-        background-size:100% 100%;
-        background-repeat:no-repeat;
-    } 
-    .bio-peter::after{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bio-peter::after {
         background: url(../Images/Bios/pt.jpg);
-        background-size:100% 100%;
-        background-repeat:no-repeat;
-    } 
-     .bio-Davey::after{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bio-Davey::after {
         background: url(../Images/Bios/dj.jpg);
-        background-size:100% 100%;
-        background-repeat:no-repeat;
-    } 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
 }
 
 
 /**********************************Videos Page*********************************************/
-.video-main{
+
+.video-main {
     background-color: #fffce9;
-    text-align:center;
+    text-align: center;
 }
 
-.vid-title{
-    color:#fffce9;
-    font-family:'Martel', serif;
-    font-size:2em;
+.vid-title {
+    color: #fffce9;
+    font-family: 'Martel', serif;
+    font-size: 2em;
     letter-spacing: -1.2px;
 }
 
-.monkee-vid{
-    width:100%;
+.monkee-vid {
+    width: 100%;
     height: 60vh;
 }
 
-.vid{
-   background-color:#222a50;
+.vid {
+    background-color: #222a50;
 }
 
-@media(min-width:770px)  {
-    .monkee-vid{
-        width:85%;
-        }
+@media(min-width:770px) {
+    .monkee-vid {
+        width: 85%;
+    }
 }
 
 /**********************************Music Page*********************************************/
-.music-main{
+
+.music-main {
     background-color: #fffce9;
-    text-align:center;
+    text-align: center;
 }
 
-.album-title{
-    font-family:'Martel', serif;
-    font-size:2em;
+.album-title {
+    font-family: 'Martel', serif;
+    font-size: 2em;
     letter-spacing: -1.2px;
     margin-bottom: 5vh;
 }
 
 
 
-.mgh-section{
-    color:#222a50;
-    background-color:#4bb7d8
+.mgh-section {
+    color: #222a50;
+    background-color: #4bb7d8
 }
 
-.gh-section{
-    color:#fffce9;
-    background-color:#222a50
+.gh-section {
+    color: #fffce9;
+    background-color: #222a50
 }
 
-.mgh-aside{
-    height:45vh;
-    background-image:url(../Images/album.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    }
-
-.gh-aside{
-     height:45vh;
-    background-image:url(../Images/cover.jpg);
+.mgh-aside {
+    height: 45vh;
+    background-image: url(../Images/album.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-.track-title{
-    text-align:center;
-    font-family:'Martel', serif;
-    font-size:1.5em;
+.gh-aside {
+    height: 45vh;
+    background-image: url(../Images/cover.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.track-title {
+    text-align: center;
+    font-family: 'Martel', serif;
+    font-size: 1.5em;
     letter-spacing: -1.2px;
 }
 
-.audio-track{
+.audio-track {
     padding-bottom: 2vh;
 }
 
-.music-button{
+.music-button {
     margin: 0 auto;
     border: 2px solid;
     padding: 0 4px 0 4px;
 }
 
-.light-blue:link, .light-blue:visited{
+.light-blue:link,
+.light-blue:visited {
     color: #222a50;
     border: 2px solid #222a50;
- 
+
 }
 
-.light-blue:hover, .light-blue:active{
+.light-blue:hover,
+.light-blue:active {
     color: #4bb7d8;
-    background-color:#222a50;
+    background-color: #222a50;
     border: 2px solid #4bb7d8;
-    text-decoration:none;
-  
+    text-decoration: none;
+
 }
 
-.dark-blue:link, .dark-blue:visited{
+.dark-blue:link,
+.dark-blue:visited {
     color: #fffce9;
     border: 2px solid #fffce9;
- 
+
 }
 
-.dark-blue:hover, .dark-blue:active{
+.dark-blue:hover,
+.dark-blue:active {
     color: #222a50;
-    background-color:#fffce9;
+    background-color: #fffce9;
     border: 2px solid #222a50;
-    text-decoration:none;
-  
+    text-decoration: none;
+
 }
 
 
 @media (min-width: 768px) {
-  .collapse.dont-collapse-sm {
-    display: block;
-    height: auto !important;
-    visibility: visible;
-  }
+    .collapse.dont-collapse-sm {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
 }
 
 /*******************************Gallery Styles******************************************/
-.img-frame{
-    padding:0px;
-    height:30vh;
-    overflow: hidden; 
+
+.img-frame {
+    padding: 0px;
+    height: 30vh;
+    overflow: hidden;
 }
 
-.gallery-image{
-    width:100%;
-    height:100%;
-    display: block; /* no whitespace */
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* no whitespace */
     transition: .3s ease-in-out;
 }
 
 
-.gallery-image:hover, .gallery-image:active {
+.gallery-image:hover,
+.gallery-image:active {
     transform: scale(1.2);
-  }
-  
-  /*******************************Form Styles******************************************/
-  
-  .form-container{
-      padding:5% 0;
-      background-color:#222a50;
-      color:#fffce9;
-      font-size:1.2rem;
-  }
-  .form-container label{
-     font-family:'Martel', serif;
-      background-color:#222a50;
-      color:#fffce9;
-      font-size:1.2rem;
-      margin-bottom: 2vh;
-  }
+}
+
+/*******************************Form Styles******************************************/
+
+.form-container {
+    padding: 5% 0;
+    background-color: #222a50;
+    color: #fffce9;
+    font-size: 1.2rem;
+}
+
+.form-container label {
+    font-family: 'Martel', serif;
+    background-color: #222a50;
+    color: #fffce9;
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
+}
 
 
-  .monkee-form{
-      padding:0 10%;
-      margin-bottom: 5vh;
-  }
-  
-  .form-button{
-      margin-top:5%;
-  }
+.monkee-form {
+    padding: 0 10%;
+    margin-bottom: 5vh;
+}
 
-  .form-row{
-      padding:0 10%;
-      margin-bottom: 5vh;
-  }
+.form-button {
+    margin-top: 5%;
+}
+
+.form-row {
+    padding: 0 10%;
+    margin-bottom: 5vh;
+}
