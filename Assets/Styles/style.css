@@ -52,6 +52,34 @@ button{
    background-color: rgb(230, 13, 22);
 }
 
+.white-on-dblue{
+    color: #fff;
+    background-color: rgb(31, 40, 79);
+    border-color: #58b7d8;
+    transition: color, background-color 0.4s ease-in-out;
+}
+
+.white-on-dblue:hover, .white-on-dblue:active{
+   color: #fffce9;
+   border-color: #58b7d8;
+   background-color: rgb(31, 40, 79);
+}
+
+.white-on-lblue{
+   color: #fffce9;
+   border-color:rgb(31, 40, 79) ;
+   background-color: #58b7d8;
+   
+    transition: color, background-color 0.4s ease-in-out;
+}
+
+.white-on-lblue:hover, .white-on-lblue:active{
+   color: #fffce9;
+   border-color:rgb(31, 40, 79) ;
+   background-color: #58b7d8;
+   
+}
+
 /*********************************Helper Styles*******************************************/
 
 .end-of-section{
@@ -62,6 +90,43 @@ button{
   margin-left:0px;
   margin-right:0px;
 }
+
+.off-white{
+    color:#fffce9;
+}
+
+/*********************************Text Styles*********************************************/
+
+.monkee-font{
+    font-family:'Martel', serif;
+    color:#fffce9;
+    
+    letter-spacing: -1.2px;
+}
+.title{
+    text-shadow: 4px 4px 2px #1f284f;
+    margin-top:2vh;
+    padding: 0 10px;
+    font-size:2.5em;
+    text-transform: uppercase;
+}
+
+.sub-title{
+   
+    text-shadow: 4px 4px 2px #1f284f;
+    padding: 0 10px;
+    font-size:1.5em;
+}
+
+.text{
+    margin: 0 auto;
+    text-shadow: 1px 1px 10px #1f284f;
+    padding: 0 10px;
+    letter-spacing: -1.2px;
+    max-width:60vw;
+}
+
+
 
 /*********************************Navbar Styles*******************************************/
 .monkee-nav-logo{
@@ -103,39 +168,6 @@ button{
 }
 
 
-.header-font{
-    text-align:center;
-    font-family:'Martel', serif;
-    color:#fffce9;
-    
-    letter-spacing: -1.2px;
-}
-
-.header-title{
-    text-shadow: 4px 4px 2px #1f284f;
-    margin-top:2vh;
-    padding: 0 10px;
-    font-size:2.5em;
-    text-transform: uppercase;
-}
-
-.header-sub-title{
-   
-    text-shadow: 4px 4px 2px #1f284f;
-    padding: 0 10px;
-    font-size:1.5em;
-}
-
-.header-text{
-    margin: 0 auto;
-    text-shadow: 1px 1px 10px #1f284f;
-    padding: 0 10px;
-    letter-spacing: -1.2px;
-    max-width:60vw;
-}
-
-
-
 /*********************************Gigs Styles*******************************************/
 .gigs{
     padding-top:4vh;
@@ -149,7 +181,7 @@ button{
      background-image: url("../Images/TIParts/title.png");
      background-repeat: no-repeat;
      background-position: center;
-     background-size:90% 100%;
+     background-size:contain;
      margin-bottom:5vh;
 }
 
@@ -191,32 +223,6 @@ button{
     width:100%
 }
 
-.gig-button:link{
-    color: #58b7d8;
-    border: 2px solid #58b7d8;
-    padding: 0 4px 0 4px;
-}
-
-
-.gig-button:visited{
-    color: #58b7d8;
-    border: 2px solid #58b7d8;
-    padding: 0 4px 0 4px;
-}
-
-.gig-button:hover{
-    color: #fffce9;
-    background-color:#58b7d8;
-    border: 2px solid #58b7d8;
-    padding: 0 4px 0 4px;
-}
-
-.gig-button:active{
-    color: #fffce9;
-    background-color:#58b7d8;
-    border: 2px solid #58b7d8;
-    padding: 0 4px 0 4px;
-}
 
 @media only screen and (max-width: 768px) {
     .tour-logo{
@@ -233,28 +239,6 @@ button{
     text-align:center;
 }
 
-.News-title{
-    margin-top:5vh;
-    padding: 0 10px;
-    font-family:'Martel', serif;
-    letter-spacing: -1.2px;
-    font-size:2.5em;
-    text-transform: uppercase;
-}
-
-.News-sub-title{
-    padding: 0 10px;
-    font-family:'Martel', serif;
-    letter-spacing: -1.2px;
-    font-size:1.7em;
-    text-transform: uppercase;
-}
-
-.News-Summary{
-    padding: 0 10px;
-    margin-top:5vh;
-    margin-bottom:5vh;
-}
 
 .news-button{
     font-family:'Martel', serif;
@@ -270,30 +254,22 @@ button{
     color: #fffce9
 }
 
-.shirts{
-    background-image:url("../Images/shirts.png");
-    background-size:100% 100%;
-    background-repeat: no-repeat;
+.news-picture-box{
+    overflow:hidden;
+}
+
+.news-picture-box img{
+  width:100%;
 }
     
-.mail{
-    background-image:url("../Images/fanmail.png");
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-}
+
 
 .family{
     background-color:#1f284f;
     color:#58b7d8;
     position: relative;
 }
-.fanmail{
-    position:relative;
-    max-width:50vw;
-    min-height:80%;
-    z-index: 2;
-    top: 5vh;
-}
+
 
 
 .family::before{
@@ -309,133 +285,28 @@ button{
 }
 
 
-.merch-button:link{
-    color: #fffce9;
-    border: 2px solid #fffce9;
-    padding: 0 4px 0 4px;
-}
 
-
-.merch-button:visited{
-    color: #fffce9;
-    border: 2px solid #fffce9;
-    padding: 0 4px 0 4px;
-}
-
-.merch-button:hover{
-    color: #23262f;
-    background-color:#fffce9;
-    border: 2px solid #23262f;
-    padding: 0 4px 0 4px;
-}
-
-.merch-button:active{
-    color: #23262f;
-    background-color:#fffce9;
-    border: 2px solid #23262f;
-    padding: 0 4px 0 4px;
-}
-
-.fans-button:link{
-    color: #58b7d8;
-    border: 2px solid #58b7d8;
-    padding: 0 4px 0 4px;
-}
-
-
-.fans-button:visited{
-    color: #58b7d8;
-    border: 2px solid #58b7d8;
-    padding: 0 4px 0 4px;
-}
-
-.fans-button:hover{
-    color: #1f284f;
-    background-color:#58b7d8;
-    border: 2px solid #1f284f;
-    padding: 0 4px 0 4px;
-}
-
-.fans-button:active{
-    color: #1f284f;
-    background-color:#58b7d8;
-    border: 2px solid #1f284f;
-    padding: 0 4px 0 4px;
-}
 
 /*********************************Media Styles*******************************************/
 
 .new-media{
     text-align: center;
-}
-.video{
-    color:#fffce9;
-    text-shadow: 3px 3px #1f284f;
     background-image: url("../Images/greatest-hits-bg.jpg");
     background-repeat: repeat;
     padding:0;
 }
-
-.media-title{
-    font-family:'Martel', serif;
-    letter-spacing: -1.2px;
-    text-transform:uppercase;
-    font-size:2.5em;
-    margin-top: 5vh;
-    }
-
-.media-sub-title{
-    height:5vh;
-    font-family:'Martel', serif;
-    letter-spacing: -1.2px;
-    font-size:1.5rem;
-    margin-bottom: 5vh;
-    }
 
 .media-image{
     height: 30vh;
 }
 
 
-.media-button{
-    text-shadow: none;
-    font-family:'Martel', serif;
-    letter-spacing: -1.2px;
-    color: inherit;
-    border: 2px solid;
-    padding: 0 4px 0 4px;
-    margin-bottom:2vh;
-}
-
 .button-block{
     margin-top:5vh;
 }
 
-.media-button:link{
-    color: #fffce9;
-    border: 2px solid #fffce9;
-    padding: 0 4px 0 4px;
-}
-
-
-.media-button:visited{
-    color: #fffce9;
-    border: 2px solid #fffce9;
-    padding: 0 4px 0 4px;
-}
-
-.media-button:hover{
-    color: #4bb7d8;
-    background-color:#fffce9;
-    border: 2px solid #4bb7d8;
-    padding: 0 4px 0 4px;
-}
-
-.media-button:active{
-   color: #4bb7d8;
-    background-color:#fffce9;
-    border: 2px solid #4bb7d8;
-    padding: 0 4px 0 4px;
+.album-title{
+    height:72px;
 }
 
 
