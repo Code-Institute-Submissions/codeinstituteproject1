@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Importing FontAwesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Importing Fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css" integrity="sha256-5yrE3ZX38R20LqA/1Mvh3KHJWG1HJF42qtZlRtGGRgE=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./Assets/Styles/style.css" type="text/css" />
 </head>
 
@@ -47,58 +49,71 @@
         <div class="row px-0 mx-0">
             <div class="px-0 col-12 col-lg-8 offset-lg-2">
 
-                <p class="header-title ">Monkee Videos</p>
+                <h1 class="monkee-font title text-center">Monkee Videos</h1>
 
-                <p class="header-text px-2">Below you will find a selection of our some of our most recent or most famous videos. If you want to see more of our videos please visit our youtube channel and don't forget to like and subscribe </p>
+                <p class="off-white px-2">Below you will find a selection of our some of our most recent or most famous videos. If you want to see more of our videos please visit our youtube channel and don't forget to like and subscribe </p>
                 <div class="end-of-section"></div>
 
             </div>
         </div>
     </header>
-    <main class="fluid-container video-main">
+    <main class="fluid-container monkee-main">
         <div class="row mx-0 px-0">
-            <div class="container px-0">
-                <section class="vid vid-themonkees">
-                    <div class="row px-0 mx-0">
-                        <article class="bio-content container mx-0 px-0">
-                            <p class="vid-title">The Monkees Theme</p>
-                            <iframe class="monkee-vid" src="https://www.youtube.com/embed/AKs43dHBSWA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-                            </aticle>
+            <section class="container px-0 shadow vid">
+                <div class="row mx-0 px-0 pt-5">
+                    <header class="col-12">
+                      <h3 class="monkee-font off-white text-center"> Click the album sleeves below to play the videos</h3>  
+                    </header>
+                </div>
+                <div class="row mx-0 px-0">
+                    <header class="col-12">
+                        
+                    </header>
+                    <article class="col-12 col-md-6 px-0 mx-0 pt-5">
+                        <div class="col-12">
+                            <h1 class="monkee-font sub-title text-center mx-auto" style="height:70px;">The Monkees Theme</h1>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <a data-fancybox href="https://www.youtube.com/embed/AKs43dHBSWA" >
+                            <img class="monkee-vid" src="/Assets/Images/VideoCovers/monkees-theme.jpg" alt="monkees theme sleeve">
+                        </a>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6 px-0 mx-0 pt-5">
+                        <div class="col-12">
+                            <h1 class="monkee-font sub-title text-center mx-auto" style="height:70px;">Daydream Believer </h1>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <a data-fancybox href="https://www.youtube.com/embed/xvqeSJlgaNk">
+                            <img class="monkee-vid" src="/Assets/Images/VideoCovers/daydream.jpg" alt="daydream believer sleeve">
+                        </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="row mx-0 px-0 pb-5 ">
+                <article class="col-12 col-md-6 px-0 mx-0 pt-5">
+                    <div class="col-12">
+                        <h1 class="monkee-font sub-title text-center mx-auto" style="height:70px;">I'm a Believer </h1>
                     </div>
-                </section>
-                <section class="vid vid-themonkees">
-                    <div class="row px-0 mx-0">
-                        <article class="bio-content container mx-0 px-0">
-                            <p class="vid-title">Daydream Believer </p>
-                            <iframe class="monkee-vid" src="https://www.youtube.com/embed/xvqeSJlgaNk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-                            </aticle>
+                    <div class="col-12 d-flex justify-content-center">
+                        <a data-fancybox href="https://www.youtube.com/embed/W83InivbUSQ">
+                            <img class="monkee-vid" src="/Assets/Images/VideoCovers/believer.jpg" alt="I'm a believer sleeve">
+                        </a>
                     </div>
-                </section>
-                <section class="vid vid-themonkees">
-                    <div class="row px-0 mx-0">
-                        <article class="bio-content container mx-0 px-0">
-                            <p class="vid-title">I'm a Believer </p>
-                            <iframe class="monkee-vid" src="https://www.youtube.com/embed/W83InivbUSQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-                            </aticle>
+                </article>
+                <article class="col-12 col-md-6 px-0 mx-0 pt-5">
+                    <div class="col-12" >
+                        <h1 class="monkee-font sub-title text-center mx-auto" style="height:70px;">Pleasant Valley Sunday </h1>
                     </div>
-                </section>
-                <section class="vid vid-themonkees">
-                    <div class="row px-0 mx-0">
-                        <article class="bio-content container mx-0 px-0">
-                            <p class="vid-title">Pleasant Valley Sunday </p>
-                            <iframe class="monkee-vid" src="https://www.youtube.com/embed/sUzs5dlLrm0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-                            <div class="end-of-section"></div>
-                        </aticle>
+                    <div class="col-12 d-flex justify-content-center">
+                        <a data-fancybox href="https://www.youtube.com/embed/W83InivbUSQ">
+                            <img class="monkee-vid" src="/Assets/Images/VideoCovers/pleasant.jpg" alt="Pleasant Valley Sunday Sleeve">
+                        </a>
                     </div>
-                    
-                </section>
-
+                    <div class="end-of-section"></div>
+                </article>
             </div>
+            </section>
         </div>
     </main>
     <footer class="d-flex justify-content-center">
@@ -112,10 +127,12 @@
             </div>
         </div>
     </footer>
-    <!--Importing JQuery, Popper and  Bootstrap 4 -->
+    <!-- Importing JQuery, Popper and  Bootstrap 4 -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--importing Fancybox-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.js" integrity="sha256-2Zlm6kQUhOfFT2ktWV81NPqZ58rw8879TsB7TE9Tg0Y=" crossorigin="anonymous"></script>
 
 </body>
 

@@ -5,6 +5,16 @@ a {
     color: inherit;
 }
 
+
+.monkee-main{
+    padding: 0px;
+    background-color: #fffce9;
+}
+
+.shadow{
+    box-shadow: 0px 6px 10px #1f284f;
+}
+
 /*********************************Custom Buttons********************************************/
 
 button {
@@ -283,7 +293,6 @@ button {
 
 .family {
     background-color: #1f284f;
-    color: #58b7d8;
     position: relative;
 }
 
@@ -306,6 +315,25 @@ button {
     .news-content {
         height: 360px;
     }
+}
+
+/*********************************Mailing List Modal Styles******************************/
+
+.modal-content{
+    background-color:#1f284f;
+    text-align:center;
+}
+
+.modal-body input{
+    background-color:#fffce9; 
+}
+.modal-title{
+    margin:0 auto;
+    
+}
+
+modal-header, modal-footer{
+    border:0;
 }
 
 
@@ -368,16 +396,14 @@ footer {
 
 .monkee-band-bio {
     background-image: url(../Images/splash-Image.jpg);
-    height: 30vh;
-    background-size: 100% 100%;
+    height: 33.3vh;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: 2vh;
 
 }
 
-.bios-main {
-    padding: 0px;
-    background-color: #fffce9;
-}
 
 .bio-content {
     position: relative;
@@ -388,26 +414,10 @@ footer {
 .bio {
     color: #fffce9;
     position: relative;
-    background-size: 100% 100%;
-}
-
-.bio-title {
-    font-family: 'Martel', serif;
-    font-size: 2em;
-    letter-spacing: -1.2px;
-    text-shadow: 4px 4px 4px #1f284f;
-}
-
-.bio-sub-title {
-    font-family: 'Martel', serif;
-    font-size: 1.25em;
-    font-style: italic;
-    letter-spacing: -1.5px;
-    text-shadow: 4px 4px 4px #1f284f;
+    background-size: 100%;
 }
 
 .bio-img {
-    height: 80%;
     width: 80%;
     margin: auto;
     box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
@@ -462,50 +472,40 @@ footer {
 
     .bio-mickey::after {
         background: url(../Images/Bios/md.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-    .bio-mickey::after {
-        background: url(../Images/Bios/md.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .bio-mike::after {
         background: url(../Images/Bios/mn.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .bio-peter::after {
         background: url(../Images/Bios/pt.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .bio-Davey::after {
         background: url(../Images/Bios/dj.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 }
-
-
 /**********************************Videos Page*********************************************/
 
-.video-main {
-    background-color: #fffce9;
-    text-align: center;
-}
-
-.vid-title {
-    color: #fffce9;
-    font-family: 'Martel', serif;
-    font-size: 2em;
-    letter-spacing: -1.2px;
-}
 
 .monkee-vid {
     width: 100%;
-    height: 60vh;
+    height: auto;
+    transition: all 0.2s;
 }
+
+.monkee-vid:hover, 
+.monkee-vid:active{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 
 .vid {
     background-color: #222a50;
@@ -513,7 +513,7 @@ footer {
 
 @media(min-width:770px) {
     .monkee-vid {
-        width: 85%;
+        max-width: 450px;
     }
 }
 
