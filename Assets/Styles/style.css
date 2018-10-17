@@ -15,6 +15,9 @@ a {
     box-shadow: 0px 6px 10px #1f284f;
 }
 
+
+
+
 /*********************************Custom Buttons********************************************/
 
 button {
@@ -101,15 +104,17 @@ button {
     margin-bottom: 5vh;
 }
 
-.remove-margin-x {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
 .off-white {
     color: #fffce9;
 }
 
+
+.dblue-bg {
+    background-color: #222a50;
+}
+.lblue-bg{
+     background-color: #4bb7d8;
+}
 /*********************************Text Styles*********************************************/
 
 .monkee-font {
@@ -519,91 +524,9 @@ footer {
 
 /**********************************Music Page*********************************************/
 
-.music-main {
-    background-color: #fffce9;
-    text-align: center;
-}
-
-.album-title {
-    font-family: 'Martel', serif;
-    font-size: 2em;
-    letter-spacing: -1.2px;
-    margin-bottom: 5vh;
-}
-
-
-
-.mgh-section {
-    color: #222a50;
-    background-color: #4bb7d8
-}
-
-.gh-section {
-    color: #fffce9;
-    background-color: #222a50
-}
-
-.mgh-aside {
-    height: 45vh;
-    background-image: url(../Images/album.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-.gh-aside {
-    height: 45vh;
-    background-image: url(../Images/cover.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-.track-title {
-    text-align: center;
-    font-family: 'Martel', serif;
-    font-size: 1.5em;
-    letter-spacing: -1.2px;
-}
-
-.audio-track {
-    padding-bottom: 2vh;
-}
-
-.music-button {
-    margin: 0 auto;
-    border: 2px solid;
-    padding: 0 4px 0 4px;
-}
-
-.light-blue:link,
-.light-blue:visited {
-    color: #222a50;
-    border: 2px solid #222a50;
-
-}
-
-.light-blue:hover,
-.light-blue:active {
-    color: #4bb7d8;
-    background-color: #222a50;
-    border: 2px solid #4bb7d8;
-    text-decoration: none;
-
-}
-
-.dark-blue:link,
-.dark-blue:visited {
-    color: #fffce9;
-    border: 2px solid #fffce9;
-
-}
-
-.dark-blue:hover,
-.dark-blue:active {
-    color: #222a50;
-    background-color: #fffce9;
-    border: 2px solid #222a50;
-    text-decoration: none;
-
+.music-image{
+    width:100%;
+    height:auto;
 }
 
 
@@ -622,10 +545,19 @@ footer {
     height: 30vh;
     overflow: hidden;
 }
+.pic-box{
+    background-color:#222a50;
+    padding:5vh 0;
+}
 
+.pic-box a{
+    width:100%;
+    overflow:hidden;
+    border:4px;solid #fffce9;
+    margin-bottom:1vh;
+}
 .gallery-image {
-    width: 100%;
-    height: 100%;
+    width:100%;
     display: block;
     /* no whitespace */
     transition: .3s ease-in-out;
@@ -637,14 +569,22 @@ footer {
     transform: scale(1.2);
 }
 
+@media(min-width:770px) {
+    .pic-box a{
+       width:auto;
+       height:25vh;
+       border-radius:1px;
+       border:5px solid white; 
+}
+.gallery-image {
+    width:auto;
+    height:25vh; 
+    }
+}
+
+
 /*******************************Form Styles******************************************/
 
-.form-container {
-    padding: 5% 0;
-    background-color: #222a50;
-    color: #fffce9;
-    font-size: 1.2rem;
-}
 
 .form-container label {
     font-family: 'Martel', serif;

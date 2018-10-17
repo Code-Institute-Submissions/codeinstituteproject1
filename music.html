@@ -9,16 +9,21 @@
     <!--Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Martel:900" rel="stylesheet">
     <!--Importing Bootstrap 4-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Importing FontAwesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/Styles/style.css" type="text/css" />
 </head>
 
 <body>
     <nav class="navbar d-flex justify-content-between navbar-expand-md nav-custom">
-        <a class="navbar-brand" href="./index.html"><img class="monkee-nav-logo" src="./Assets/Images/monkees-logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="./index.html">
+            <img class="monkee-nav-logo" src="./Assets/Images/monkees-logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <i class="fas fa-bars"></i>
         </button>
 
@@ -34,7 +39,7 @@
                     <a class="nav-link" href="./videos.html">Video</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./Gallery.html">Gallery</a>
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./bookus.html">Book Us</a>
@@ -47,104 +52,142 @@
         <div class="row px-0 mx-0">
             <div class="px-0 col-12 col-lg-8 offset-lg-2">
 
-                <p class="header-title ">Monkee Music</p>
+                <h1 class="monkee-font title text-center">Monkee Music</h1>
                 <div class="end-of-section"></div>
 
             </div>
         </div>
     </header>
-    <main class="fluid-container music-main">
+    <main class="fluid-container monkee-main">
         <div class="row mx-0 px-0">
-            <div class="container px-0">
-                <section class="Music-Album gh-section py-3">
+            <section class="container px-0 shadow">
+                <!-- start of the Greatest Hits Section -->
+                <article class="lblue-bg py-3">
+                    <!-- Album Title -->
                     <div class="row mx-0 px-0">
-                        <div class="col-12 album-title greatest-hits-title"> Greatest Hits</div>
+                        <div class="col-12">
+                            <h1 class="monkee-font title text-center">Greatest Hits</h1>
+                        </div>
                     </div>
                     <div class="row mx-0 px-0">
-                        <aside class="col-12 col-md-6 gh-aside"></aside>
-                        <article class="col-12 col-md-6">
-                            <div class="row px-0 mx-0">
-                                <div class="col-12 mx-0 audio-track">
-                                    <p class="track-title"> I'm a Believer</p>
-                                    <audio class="player" controls>
+                        <div class="col-12 col-md-6 ">
+                            <img class="music-image" src="./Assets/Images/cover.jpg" alt="greatest hits album cover">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row px-0 mx-auto">
+                                <div class="d-flex flex-column col-12 mx-0 my-2">
+                                    <h2 class="monkee-font sub-title text-center"> I'm a Believer</h2>
+                                    <audio class="player mx-auto" aria-label="Play I'm a Believer" controls>
                                       <source src="./Assets/Audio/ImABeliever.mp3" type="audio/mpeg">
                                       Your browser does not support the audio element.
                                     </audio>
                                 </div>
                             </div>
-                            <div class="row px-0 mx-0">
-                                <div class="col-12 mx-0 audio-track p-auto">
-                                    <p class="track-title"> Daydream Believer</p>
-                                    <audio class="player" controls>
+
+                            <div class="row px-0 mx-auto">
+                                <div class="d-flex flex-column col-12 mx-0 my-2">
+                                    <h2 class="monkee-font sub-title text-center"> Daydream Believer</h2>
+                                    <audio class="player mx-auto" aria-label="Play I'm a Believer" controls>
                                       <source src="./Assets/Audio/DaydreamBeliever.mp3" type="audio/mpeg">
                                       Your browser does not support the audio element.
                                     </audio>
                                 </div>
-                                <a class="music-button dark-blue d-md-none" data-toggle="collapse" href="#GH-info" aria-expanded="false" aria-controls="GH-info">
-                                Find Out More</a>
+                                <a class="mx-auto d-md-none mt-5" data-toggle="collapse" href="#GH-info" aria-expanded="false" aria-controls="GH-info">
+                                    <div class="button-wrapper mb-5">
+                                        <button class="monkee-font monkee-button white-on-red mx-auto"> 
+                                       find out more
+                                    </button>
+                                    </div>
                                 </a>
                                 <div class="collapse dont-collapse-sm" id="GH-info">
-                                    <p class="greatest-hits-description">The Monkees Greatest Hits is a 1976 greatest hits compilation album of songs by The Monkees released by Arista Records, and a reissue of an earlier Bell Records compilation, Re-Focus.</p>
-                                    <p class="greatest-hits-description">This album marks the compilation debut of chart hits "Words" and "The Girl I Knew Somewhere," which had been overlooked on the previous greatest hits albums. ("Somewhere" had appeared on a compilation by the Laurie
-                                        House publishers that was only available as mail order, and the Australian compilation Monkeemania also included the song. This was the song's first U.S. release on an album available in record stores.)</p>
+                                    <p class="off-white">The Monkees Greatest Hits is a 1976 greatest hits compilation album of songs by The 
+                                    Monkees released by Arista Records, and a reissue of an earlier Bell Records compilation, Re-Focus.</p>
+                                    <p class="off-white">This album marks the compilation debut of chart hits "Words" and "The Girl I Knew 
+                                    Somewhere," which had been overlooked on the previous greatest hits albums. ("Somewhere" had appeared 
+                                    on a compilation by the Laurie House publishers that was only available as mail order, and the Australian 
+                                    compilation Monkeemania also included the song. This was the song's first U.S. release on an album available in record stores.)</p>
                                 </div>
-                        </article>
-                        <div class="col-12 mx-0">
-                            <div class="button-block">
-                                <a href="https://www.amazon.com/Monkees-Greatest-Hits/dp/B0000033O3" target="_Blank" class="music-button dark-blue">Buy This Album</a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-12 mx-0">
+                        <div class="button-wrapper mb-5 mt-4">
+                            <a class="mx-auto" href="https://www.amazon.com/Monkees-Greatest-Hits/dp/B0000033O3" target="_blank">
+                                    <button class="monkee-font monkee-button white-on-red mx-auto"> 
+                                       Buy This Album
+                                    </button>
+                                </a>
                         </div>
-                </section>
-                <section class="Music-Album mgh-section py-3">
+
+                    </div>
+
+                </article>
+                <!-- End of the Greatest Hits Section -->
+                <!-- start of the More Greatest Hits Section -->
+                <article class="dblue-bg py-3">
                     <div class="row mx-0 px-0">
-                        <div class="col-12 album-title more-greatest-hits-title"> More Greatest Hits</div>
+                        <div class="col-12">
+                            <h1 class="monkee-font title text-center">More Greatest Hits</h1>
+                        </div>
                     </div>
                     <div class="row mx-0 px-0">
-                        <aside class="col-12 col-md-6 mgh-aside"></aside>
-                        <article class="col-12 col-md-6">
-                            <div class="row px-0 mx-0">
-                                <div class="col-12 mx-0 audio-track">
-                                    <p class="track-title"> Stepping Stone</p>
-                                    <audio class="player" controls>
-                                      <source src="./Assets/Audio/SteppingStone.mp3" type="audio/mpeg">
+                        <div class="col-12 col-md-6 mgh-aside">
+                            <img class="music-image" src="./Assets/Images/album.jpg" alt="more greatest hits album cover">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row px-0 mx-auto mt-5">
+                                <div class=" d-flex flex-column col-12 mx-0 my-2">
+                                    <h2 class="monkee-font sub-title text-center"> Stepping Stone</h2>
+                                    <audio class="player mx-auto" controls>
+                                      <source src="./Assets/Audio/SteppingStone.mp3" aria-label="play stepping stone" type="audio/mpeg">
                                       Your browser does not support the audio element.
                                     </audio>
                                 </div>
                             </div>
-                            <div class="row px-0 mx-0">
-                                <div class="col-12 mx-0 audio-track">
-                                    <p class="track-title"> Last Train to Clarksville</p>
-                                    <audio class="player" controls>
+                            <div class="row px-0 mx-auto">
+                                <div class="d-flex flex-column col-12 mx-0 my-2">
+                                    <h2 class="monkee-font sub-title text-center"> Last Train to Clarksville</h2>
+                                    <audio class="player mx-auto my-" controls>
                                       <source src="./Assets/Audio/Clarksville.mp3" type="audio/mpeg">
                                       Your browser does not support the audio element.
                                     </audio>
                                 </div>
                             </div>
-                            <a class="music-button light-blue d-md-none" data-toggle="collapse" href="#MGH-info" aria-expanded="false" aria-controls="MGH-info">
-                                Find Out More</a>
-                            </button>
+                            <a class="d-md-none" data-toggle="collapse" href="#MGH-info" aria-expanded="false" aria-controls="MGH-info">
+                                <div class="button-wrapper mb-5 mt-4">
+                                    <button class="monkee-font monkee-button white-on-red mx-auto"> 
+                                       Find Out More
+                                    </button>
+                                </div>
+                            </a>
                             <div class="collapse dont-collapse-sm" id="MGH-info">
-                                <p class="greatest-hits-description">More Greatest Hits of the Monkees is a 1982 greatest hits compilation album of songs by the Monkees, assembled and released by Arista Records. Rather than featuring strictly hit singles, the collection instead featured
+                                <p class="off-white">More Greatest Hits of the Monkees is a 1982 greatest hits compilation album 
+                                of songs by the Monkees, assembled and released by Arista Records. Rather than featuring strictly hit singles, the collection instead featured
                                     music from their television series, which was still airing in syndication around the US</p>
-                                <p class="greatest-hits-description">While the Monkees were among the top-selling bands of the mid-1960s, their decline was sharp and their last new albums and singles sold poorly. Earlier best-of collections (the first two from their original label, Colgems
-                                    Records) had seen only limited release, and were hard to find in stores. Several of the Monkees' hits had become radio staples, though, and with the sale of their television series into syndication in 1975, they found
+                                <p class="off-white">While the Monkees were among the top-selling bands of the mid-1960s, their decline was sharp
+                                and their last new albums and singles sold poorly. Earlier best-of collections (the first two from their original label, Colgems
+                                    Records) had seen only limited release, and were hard to find in stores. Several of the Monkees' hits had become
+                                    radio staples, though, and with the sale of their television series into syndication in 1975, they found
                                     a new audience on daytime TV. Popular demand from old and new Monkees fans prompted the album's release.</p>
 
                             </div>
-                        </article>
-                    </div>
-                    <div class="col-12 mx-0">
-                        <div class="button-block">
-                            <a href="https://www.amazon.com/More-Greatest-Hits-Monkees/dp/B000VW4D7I" target="_blank" class="music-button light-blue">Buy This Album</a>
                         </div>
                     </div>
-
-                </section>
-
-
-                </div>
-            </div>
+                    <div class="col-12 mx-0">
+                        <div class="button-wrapper mb-5 mt-4">
+                            <a class="mx-auto" href="https://www.amazon.com/More-Greatest-Hits-Monkees/dp/B000VW4D7I" target="_blank">
+                                <div class="button-wrapper mb-5">
+                                    <button class="monkee-font monkee-button white-on-red mx-auto"> 
+                                       Purchase Album
+                                    </button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- End of the More Greatest Hits Section -->
+            </section>
+        </div>
     </main>
     <footer class="d-flex justify-content-center">
         <div class="text-center">
@@ -158,9 +201,15 @@
         </div>
     </footer>
     <!--Importing JQuery, Popper and  Bootstrap 4 -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
 
 </body>
 
