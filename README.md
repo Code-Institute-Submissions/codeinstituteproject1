@@ -9,7 +9,7 @@ and perform well on any size of device. I have also put good user experience at 
  
 ## UX
 
-###Strategy
+### Strategy
 
 There are a number of reasons for creating this project. First and foremost it is to provide a convienent and easy to use resource for Fans of The Monkees to listen to music, watch videos and find up to date information about their favourite (or at least one of their favourite bands). Secondly it serves as a platform for the Monkees to promote their new material, their social media channels, and allow them to stay in touch with their fans. Finally users can use the site to arrange to have the Monkees play at their parties, weddings or other events.
 
@@ -35,28 +35,28 @@ I Identified two users for this site. Existing, Long Term Fans of the Monkees an
 1. As a new Monkees fan I should be able to find out about the monkees, who they are, their history etc.
 2. As a new fan I should be able to use the site to find the band and the band members social media pages. 
 
-####Scope
+#### Scope
 Using the user the above user storys and he project brief I identified the follwoing requirements: 
 
-####Functional Requirements
+#### Functional Requirements
 1. The Project must be a series of static webpages or one large webpages with multiple sections
 2. The webpages must work in a range of browsers
 3. Across a range of different devices, mobiles, phablets, tablets, laptops, desktops
 4. Each of the pages of the site should be accessible from the others.
 5. The project will need to be able to play a range of different media.
 
-#####Non-Functional Requirements
+##### Non-Functional Requirements
 1. The site should be intuitive to use
 2. The site should be eye-catching and easy to read/use
 
-####Content Requirements
+#### Content Requirements
 1. The project will need to contain videos
 2. The project will need to include audio clips
 3. The project will need to include text content
 4. The project will need to contain images.
 5. The project will need a form
 
-###Structure
+### Structure
 
 After considering the scope of my project I decided that it would be better to approach the project as a series of webpages as opposed to a single long pages in multiple sections. My concerns stemmed from the content requirements. I was worried that if there were lots of different types on media on one long page it might take a long time to load, and ultimately turn off users. I decided to structure my website as multiple pages.
 
@@ -78,7 +78,7 @@ The pages appear in his order in the navbar.  I felt that the bios, music, video
 
 The project uses a flat structure and every page is only 1 click away from every other page.
 
-###skeleton - to be continued
+### skeleton - to be continued
 
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
