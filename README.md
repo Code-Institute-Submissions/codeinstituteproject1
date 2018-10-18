@@ -35,7 +35,7 @@ I Identified two users for this site. Existing, Long Term Fans of the Monkees an
 1. As a new Monkees fan I should be able to find out about the monkees, who they are, their history etc.
 2. As a new fan I should be able to use the site to find the band and the band members social media pages. 
 
-#### Scope
+### Scope
 Using the user the above user storys and he project brief I identified the follwoing requirements: 
 
 #### Functional Requirements
@@ -45,7 +45,7 @@ Using the user the above user storys and he project brief I identified the follw
 4. Each of the pages of the site should be accessible from the others.
 5. The project will need to be able to play a range of different media.
 
-##### Non-Functional Requirements
+#### Non-Functional Requirements
 1. The site should be intuitive to use
 2. The site should be eye-catching and easy to read/use
 
