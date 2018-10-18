@@ -11,9 +11,7 @@ a {
     background-color: #fffce9;
 }
 
-.shadow{
-    box-shadow: 0px 6px 10px #1f284f;
-}
+
 
 
 
@@ -115,6 +113,10 @@ button {
 .lblue-bg{
      background-color: #4bb7d8;
 }
+
+.shadow{
+    box-shadow: 0px 6px 10px #1f284f;
+}
 /*********************************Text Styles*********************************************/
 
 .monkee-font {
@@ -195,6 +197,19 @@ button {
     display: block;
     margin: auto;
     width: 100%;
+}
+
+.header-image{
+    margin:0 auto;
+    width: 100%;
+    display: block;
+}
+
+@media(min-width:770px) {
+    .header-image{
+        border-radius:5%;
+        width:60%;
+    }
 }
 
 
@@ -352,7 +367,7 @@ modal-header, modal-footer{
 }
 
 .media-image {
-    height: 30vh;
+    width: 100%;
 }
 
 
@@ -368,9 +383,8 @@ modal-header, modal-footer{
 /*********************************Footer Styles*******************************************/
 
 footer {
-    padding-top: 8vh;
+    padding-top: 5vh;
     padding-bottom: 5vh;
-    height: 25vh;
     color: white;
     background-color: black;
 }
@@ -398,16 +412,6 @@ footer {
 }
 
 /**********************************Bios Page*********************************************/
-
-.monkee-band-bio {
-    background-image: url(../Images/splash-Image.jpg);
-    height: 33.3vh;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 2vh;
-
-}
 
 
 .bio-content {
@@ -586,6 +590,8 @@ footer {
 /*******************************Form Styles******************************************/
 
 
+
+
 .form-container label {
     font-family: 'Martel', serif;
     background-color: #222a50;
@@ -594,10 +600,17 @@ footer {
     margin-bottom: 2vh;
 }
 
+.form-control{
+    background-color:#fffce9;
+    color:#222a50;
+}
 
+.form-control:focus{
+    background-color:#fffce9;
+    border:4px solid #4b8caa
+}
 .monkee-form {
     padding: 0 10%;
-    margin-bottom: 5vh;
 }
 
 .form-button {

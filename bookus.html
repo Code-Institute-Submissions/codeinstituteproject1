@@ -34,7 +34,7 @@
                     <a class="nav-link" href="./videos.html">Video</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./Gallery.html">Gallery</a>
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="./bookus.html">Book Us</a>
@@ -47,49 +47,56 @@
         <div class="row px-0 mx-0">
             <div class="px-0 col-12 col-lg-8 offset-lg-2">
 
-                <p class="header-title ">Book Us</p>
-
-                <p class="header-text px-2">Placeholder text</p>
+                <h1 class="monkee-font title text-center">Book Us</h1>
+                <img class="header-image mb-2" src="./Assets/Images/monkees-live.jpg" alt="Monkees Performing Live">
+                <h2 class="monkee-font sub-title text px-2  text-center">We do weddings, parties or any other special occasions</h2>
+                <p class="off-white  text-center px-2">Please complete the form below to get in touch with us. Please Provide as much information about your event as possible to help us get back to you promptly with a quote. </p>
                 <div class="end-of-section"></div>
 
             </div>
         </div>
     </header>
-    <main class="fluid-container video-main">
+    <main class="fluid-container monkee-main">
         <div class="row mx-0 px-0">
-            <div class="container form-container px-0">
+            <section class="container px-0 dblue-bg shadow py-5">
                 <form>
-                    <div class="form-group monkee-form">
-                        <label for="Name">Prefered Name*</label>
-                        <input id="Name" type="text" class="form-control" placeholder="Name">
-                        <small class="form-text">What should we call you in our correspondance</small>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group monkee-form">
+                                <label class="monkee-font off-white" for="Name">Prefered Name*</label>
+                                <input required id="Name" type="text" class="form-control" placeholder="Name" />
+                                <small class="off-white form-text">What should we call you in our correspondance</small>
+                            </div>
+                            <div class="form-group monkee-form">
+                                <label class="monkee-font off-white" for="email">Email Address*</label>
+                                <input required type="text" class="form-control" id="email" placeholder="email address" />
+                            </div>
+                            <div class="form-group monkee-form">
+                                <label class="monkee-font off-white" for="event-type">Type Of Event*</label>
+                                <select required class="form-control" id="event-type">
+                              <option>Select</option>
+                              <option>Wedding</option>
+                              <option>Party</option>
+                              <option>Corporate Event</option>
+                              <option>Festival</option>
+                              <option>Other</option>
+                            </select>
+                                <small class="off-white" class="form-text">If you selected other please describe the type of event in the next section</small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group monkee-form">
+                                <label class="monkee-font off-white" for="additional-info">Please Provide us with any additional information about your event</label>
+                                <textarea class="form-control" id="additional-info" rows="10" placeholder="Anything we should know"></textarea>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group monkee-form">
-                        <label for="email">Email Address*</label>
-                        <input type="text" class="form-control" id="email" placeholder="email address">
+                    <div class="form-group monkee-form text-center">
+                        <label class="monkee-font off-white"> Where will your event be taking place?</label>
                     </div>
-                    <div class="form-group monkee-form">
-                        <label for="event-type">Type Of Event*</label>
-                        <select class="form-control" id="event-type">
-                          <option>Select</option>
-                          <option>Wedding</option>
-                          <option>Party</option>
-                          <option>Corporate Event</option>
-                          <option>Festival</option>
-                          <option>Other</option>
-                        </select>
-                        <small class="form-text">If you selected other please describe the type of event in the next section</small>
-                    </div>
-                    <div class="form-group monkee-form">
-                        <label for="additional-info">Please Provide us with any additional information about your event</label>
-                        <textarea class="form-control" id="additional-info" rows="7" placeholder="Anything we should know"></textarea>
-                    </div>
-                    <div class="form-group monkee-form">
-                        <label> Where will your event be taking place?</label>
-                    </div>
-                    <div class="form-row ">
+                    <div class="row mx-0 px-0">
                         <div class="col monkee-form">
-                            <label for="formGroupExampleInput2">Country</label>
+                            <label class="monkee-font off-white" for="formGroupExampleInput2">Country</label>
                             <!--Country List taken from https://www.mediacollege.com/internet/samples/html/country-list.html -->
                             <select class="form-control" id="exampleFormControlSelect1">
                             <option value="">Country...</option>
@@ -343,26 +350,51 @@
                             </select>
                         </div>
                         <div class="col monkee-form">
-                            <label for="formGroupExampleInput2">City/Town</label>
+                            <label class="monkee-font off-white" for="formGroupExampleInput2">City/Town</label>
                             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="City">
                         </div>
                     </div>
                     <div class="form-group monkee-form">
-                        <a href="" class="form-button dark-blue">Submit</a>
+                        <div class="button-wrapper end-of-section">
+                            <input type="submit" value="Submit" class="monkee-font monkee-button white-on-red mx-auto p-1 pt-2 mt-5" />
+                        </div>
                     </div>
                 </form>
-                <div class="end-of-section"></div>
-            </div>
+            </section>
         </div>
     </main>
-    <footer class="d-flex justify-content-center">
+     <footer class="d-flex justify-content-center">
         <div class="text-center">
             <p>follow us on social media</p>
             <div class="social-block">
-                <div><a href="" class="social-button"><i class="fab fa-facebook-square ml-2 mr-2"></i></a></div>
-                <div><a href="" class="social-button"><i class="fab fa-instagram ml-2 mr-2"></i></a></div>
-                <div><a href="" class="social-button"><i class="fab fa-twitter-square ml-2 mr-2"></i></a></div>
-                <div><a href="" class="social-button"><i class="fab fa-youtube ml-2 mr-2"></i></a></div>
+                <div>
+                    <!-- facebook icon -->
+                    <a href="https://www.facebook.com/TheMonkees/" target="_blank" class="social-button">
+                        <i class="fab fa-facebook-square ml-2 mr-2">
+                        </i>
+                    </a>
+                </div>
+                <div>
+                    <!-- instagram icon -->
+                    <a href="https://www.instagram.com/themonkees/?hl=en" target="_blank" class="social-button">
+                        <i class="fab fa-instagram ml-2 mr-2">
+                            
+                        </i>
+                    </a>
+                </div>
+                <div>
+                    <!-- twitter icon -->
+                    <a href="https://twitter.com/themonkees?lang=en" target="_blank" class="social-button">
+                        <i class="fab fa-twitter-square ml-2 mr-2">
+                        </i>
+                    </a>
+                </div>
+                 <!-- youtube icon -->
+                <div><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank" class="social-button">
+                    <i class="fab fa-youtube ml-2 mr-2">
+                    </i>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
