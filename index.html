@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <nav class="navbar d-flex justify-content-between navbar-expand-md nav-custom">
         <a class="navbar-brand" href="./index.html">
             <img class="monkee-nav-logo" src="./Assets/Images/monkees-logo.png" alt="monkees logo">
@@ -48,7 +49,7 @@
         </div>
     </nav>
     <main>
-         <!-- Start of the header section -->
+        <!-- Start of the header section -->
         <header class="fluid-container splash">
             <div class="row px-0 mx-0">
                 <div class="col-10 offset-1 col-lg-6 offset-lg-3">
@@ -56,7 +57,7 @@
                     <div class="col-12  col-12 col-xl-10 offset-xl-1">
                         <img class="monkee-hero" src="./Assets/Images/monkees-hero.png" alt="cartoon images of the monkees">
                     </div>
-                     <!-- header text -->
+                    <!-- header text -->
                     <div class="col-12 monkee-intro">
                         <h1 class="monkee-font text-center title">Hey, Hey We're The Monkees</h1>
                         <h2 class="monkee-font text-center sub-title">and people say we monkey around</h2>
@@ -77,7 +78,9 @@
         <section class="fluid-container gigs">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-12 col-md-5 col-xl-3 offset-xl-2 tour-logo"></div>
+                    <div class="col-12 col-md-5 col-xl-3 offset-xl-2">
+                        <img src="/Assets/Images/TIParts/title.png" class="mx-auto tour-logo" alt="Tour: The Mike and Mickey Show">
+                    </div>
                     <div class="col-12 col-md-5 col-xl-4 dates">
                         <!-- Start of the first tour date -->
                         <article class="row">
@@ -88,9 +91,11 @@
                                 <h3 class="city-state">Glenside, PA</h3>
                                 <h4 class="Venue">The Keswick Theatre</h4>
                                 <div class="button-wrapper mb-2">
-                                    <button href="./bios.html" class="header-font monkee-button white-on-red"> 
+                                    <a href="https://www.axs.com/events/350448/the-monkees-tickets?soc=KEZ_FACEBOOK" target="_blank">
+                                    <button class="header-font monkee-button white-on-red"> 
                                         Tickets 
                                     </button>
+                                    </a>
                                 </div>
                                 <div class="bottom-border"></div>
                             </div>
@@ -105,14 +110,14 @@
                                 <h3 class="city-state">Huntington, NY</h3>
                                 <h4 class="Venue">The Paramount</h4>
                                 <div class="button-wrapper mb-2">
-                                    <button href="./bios.html" class="header-font monkee-button white-on-red"> 
+                                    <button onclick="soldOut()" class="header-font monkee-button white-on-red"> 
                                         Tickets 
                                     </button>
                                 </div>
                                 <div class="bottom-border"></div>
                             </div>
                         </article>
-                         <!-- End of the second tour date -->
+                        <!-- End of the second tour date -->
                     </div>
                     <!-- Mid and larger only section to show additional image of the band and -->
                     <div class="d-none d-md-block col-md-2 band"></div>
@@ -120,7 +125,7 @@
                 <!-- More Tour dates button row -->
                 <div class="row d-flex justify-content-center">
                     <div class="button-wrapper mb-4">
-                        <a href="./bios.html">
+                        <a href="https://www.facebook.com/pg/TheMonkees/events/?ref=page_internal" target="_blank">
                              <button class="monkee-font monkee-button white-on-red"> 
                                  More Tour Dates 
                              </button>
@@ -129,7 +134,7 @@
                 </div>
             </div>
         </section>
-          <!-- End of the tour section -->
+        <!-- End of the tour section -->
         <!-- Start of the news section -->
         <s0ection class="fluid-container news">
             <div class="row px-0 mx-0">
@@ -169,8 +174,7 @@
                                     The Official Monkees Fan Club!!
                                 </p>
                                 <p class="text off-white">
-                                    Join the Monkee Troop today for priority access to shows, exclusive discounts in the online store, 
-                                    early entry to shows and more
+                                    Join the Monkee Troop today for priority access to shows, exclusive discounts in the online store, early entry to shows and more
                                 </p>
                             </div>
                             <div class=" mx-auto button-wrapper mt-5">
@@ -191,7 +195,7 @@
             </section>
             <!-- End of the news section -->
             <!-- Start of the Media Section -->
-            <section class="fluid-container new-media">
+            <section class="fluid-container new-media py-5">
                 <!-- Section Title-->
                 <div class="row px-0 mx-0">
                     <div class="col-12">
@@ -262,43 +266,70 @@
                     </div>
                 </div>
             </section>
-             <!-- End of the Media Section-->
+            <!-- End of the Media Section-->
     </main>
-    <footer class="d-flex justify-content-center">
-        <div class="text-center">
-            <p>follow us on social media</p>
-            <div class="social-block">
-                <div>
-                    <!-- facebook icon -->
-                    <a href="https://www.facebook.com/TheMonkees/" target="_blank" class="social-button">
+    <footer>
+        <div class="row mx-0 px-0">
+            <div class="col-4 d-none d-md-block text-center ">
+                <p>Sitemap</p>
+                <ul class="sitemap">
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./bios.html">
+                        <li>Bios</li>
+                    </a>
+                    <a href="./music.html">
+                        <li>Music</li>
+                    </a>
+                    <a href="./videos.html">
+                        <li>Video</li>
+                    </a>
+                    <a href="./gallery.html">
+                        <li>Gallery</li>
+                    </a>
+                    <a href="./bookus.html">
+                        <li>Book Us</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="col-12 offset-md-4 col-md-4 text-center">
+                <p>follow us on social media</p>
+                <div class="social-block">
+                    <div>
+                        <!-- facebook icon -->
+                        <a href="https://www.facebook.com/TheMonkees/" target="_blank" class="social-button">
                         <i class="fab fa-facebook-square ml-2 mr-2">
                         </i>
                     </a>
-                </div>
-                <div>
-                    <!-- instagram icon -->
-                    <a href="https://www.instagram.com/themonkees/?hl=en" target="_blank" class="social-button">
+                    </div>
+                    <div>
+                        <!-- instagram icon -->
+                        <a href="https://www.instagram.com/themonkees/?hl=en" target="_blank" class="social-button">
                         <i class="fab fa-instagram ml-2 mr-2">
                             
                         </i>
                     </a>
-                </div>
-                <div>
-                    <!-- twitter icon -->
-                    <a href="https://twitter.com/themonkees?lang=en" target="_blank" class="social-button">
+                    </div>
+                    <div>
+                        <!-- twitter icon -->
+                        <a href="https://twitter.com/themonkees?lang=en" target="_blank" class="social-button">
                         <i class="fab fa-twitter-square ml-2 mr-2">
                         </i>
                     </a>
-                </div>
-                 <!-- youtube icon -->
-                <div><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank" class="social-button">
+                    </div>
+                    <!-- youtube icon -->
+                    <div><a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank" class="social-button">
                     <i class="fab fa-youtube ml-2 mr-2">
                     </i>
                     </a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+
 
     <!-- Modal -->
     <div class="modal fade" id="mailing-list" tabindex="-1" role="dialog" aria-labelledby="mailing-list-label" aria-hidden="true">
@@ -317,12 +348,12 @@
                 </div>
                 <div class="off-white modal-body">
                     <p>Please Enter Your Address Below to sign up for the monkee troop</p>
-                    <input class="form-control" type="text" name="email" placeholder="Email Address">
-                     <p class="my-4">We will not use your email address for any other purposes</p>
+                    <input required class="form-control" type="text" name="email" placeholder="Email Address">
+                    <p class="my-4">We will not use your email address for any other purposes</p>
                 </div>
                 <div class="modal-footer">
                     <div class="button-wrapper mx-auto" style="height:50px">
-                        <button type="button" class="monkee-font monkee-button white-on-dblue " data-dismiss="modal">Sign up</button>
+                        <button type="button" class="monkee-font monkee-button white-on-dblue " onclick="mailingListJoined()" data-dismiss="modal">Sign up</button>
                     </div>
                 </div>
             </div>
@@ -332,6 +363,17 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- import back to to button -->
+    <script src="./Assets/Scripts/backToTop.js"></script>
+    <script>
+        function soldOut() {
+            alert("Sold Out, Sorry")
+        }
+
+        function mailingListJoined() {
+            alert("You have been added to the Monkee Troop Mailing List, thank you")
+        }
+    </script>
 
 </body>
 
