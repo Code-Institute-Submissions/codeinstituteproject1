@@ -82,9 +82,9 @@ The project uses a flat structure and every page is only 1 click away from every
 
 I have included the wireframes for my site in the Doccumentation folder in this repository. Additionally I have included a more detailed write up of my designs and the ideas behind them on the linked webpages.
 
-**Mobile Wireframes**
+[**Mobile Wireframes**](https://kev20006.github.io/codeinstituteproject1/Documentation-Files/mobile-wireframe.html)
 
-**Tablet Wireframes**
+[**Tablet Wireframes**](https://kev20006.github.io/codeinstituteproject1/Documentation-Files/tablet-wireframe.html)
 
 **Laptop/Desktop** 
 
@@ -146,10 +146,10 @@ In this project the following technologies have been used.
    - **FontAwesome** provided the icons used on the page
 
 - **FancyBox**
- - **Fancybox** was used to provide an interactive gallery on both the gallery page and on the video page of the site. 
+   - **Fancybox** was used to provide an interactive gallery on both the gallery page and on the video page of the site. 
 
 - **JQuery**
-  - **JQuery** was used as a part of the **Bootstrap 4** and **Fancybox** 
+   - **JQuery** was used as a part of the **Bootstrap 4** and **Fancybox** 
 
 ## Testing
 
