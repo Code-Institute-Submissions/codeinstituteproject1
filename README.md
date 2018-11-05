@@ -86,7 +86,7 @@ I have included the wireframes for my site in the Doccumentation folder in this 
 
 [**Tablet Wireframes**](https://kev20006.github.io/codeinstituteproject1/Documentation-Files/tablet-wireframe.html)
 
-**Laptop/Desktop** 
+[**Laptop/Desktop**] (https://kev20006.github.io/codeinstituteproject1/Documentation-Files/desktop-wireframe.html)
 
 ### Surface
 

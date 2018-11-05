@@ -141,7 +141,7 @@
                 <!-- Start of the first news item -->
                 <article class="d-flex px-0 flex-column col-12 col-md-6 col-lg-12 merch">
                     <div class="row px-0 mx-0 my-5">
-                        <div class="col-12 col-lg-4 offset-lg-1 offset-xl-2 text-lg-left">
+                        <div class="col-12 col-lg-4 offset-lg-1 offset-xl-2 text-lg-left d-flex flex-column justify-content-around">
                             <div class="news-content">
                                 <p class="monkee-font title">All New Monkee Merch AVAILABLE NOW!</p>
                                 <p class="text">
@@ -165,7 +165,7 @@
                 <!-- Start of the second news item -->
                 <article class="d-flex px-0 flex-column col-12 col-md-6 col-lg-12 family">
                     <div class="row mx-0 px-0 my-5">
-                        <div class="col-12 col-lg-4 offset-lg-1  offset-xl-2 text-lg-left">
+                        <div class="col-12 col-lg-4 offset-lg-1 offset-xl-2 d-flex flex-column justify-content-around text-lg-left">
                             <div class="news-content">
                                 <p class="monkee-font title">
                                     The Monkee Troop
@@ -218,14 +218,14 @@
                                          </a>
                                     </div>
                                     <div class=" button-wrapper d-inline-block">
-                                        <a href="./music.html">
+                                        <a href="./music.html#MGH">
                                              <button class="monkee-font monkee-button white-on-lblue"> 
-                                                 Songs
+                                                 Music
                                              </button>
                                          </a>
                                     </div>
                                     <div class="button-wrapper d-inline-block">
-                                        <a href="https://www.amazon.com/More-Greatest-Hits-Monkees/dp/B000VW4D7Il">
+                                        <a href="https://www.amazon.com/More-Greatest-Hits-Monkees/dp/B000VW4D7Il" target="_blank">
                                              <button class="monkee-font monkee-button white-on-lblue"> 
                                                  Purchase
                                              </button>
@@ -238,13 +238,21 @@
                                 <p class="monkee-font sub-title album-title">The Greatest Hits</p>
                                 <img class="img-fluid media-image" src="./Assets/Images/cover.jpg" alt="greatest hits cover" />
                                 <div class="button-block end-of-section">
+                                    <div class=" button-wrapper d-inline-block">
+                                        <a href="./music.html#GH">
+                                             <button class="monkee-font monkee-button white-on-lblue"> 
+                                                 Music
+                                             </button>
+                                         </a>
+                                    </div>
                                     <div class="button-wrapper d-inline-block">
-                                        <a href="https://www.amazon.com/Monkees-Greatest-Hits/dp/B0000033O3">
+                                        <a href="https://www.amazon.com/Monkees-Greatest-Hits/dp/B0000033O3" target="_blank">
                                              <button class="monkee-font monkee-button white-on-lblue"> 
                                                  Purchase
                                              </button>
                                          </a>
                                     </div>
+                                 
                                 </div>
 
                             </article>
@@ -254,7 +262,7 @@
                                 <img class="img-fluid media-image" src="./Assets/Images/christmas.jpg" alt="Christmas Party Cover" />
                                 <div class="button-block">
                                     <div class="button-wrapper d-inline-block">
-                                        <a href="https://monkeesstore.warnermusic.com/music/christmas-party.html">
+                                        <a href="https://monkeesstore.warnermusic.com/music/christmas-party.html" target="_blank">
                                              <button class="monkee-font monkee-button white-on-lblue"> 
                                                  Purchase
                                              </button>
@@ -346,16 +354,18 @@
                         </button>
                     </div>
                 </div>
+                <form>
                 <div class="off-white modal-body">
                     <p>Please Enter Your Address Below to sign up for the monkee troop</p>
-                    <input required class="form-control" type="text" name="email" placeholder="Email Address">
+                    <input required class="form-control" type="text" name="email" placeholder="Email Address" required>
                     <p class="my-4">We will not use your email address for any other purposes</p>
                 </div>
                 <div class="modal-footer">
                     <div class="button-wrapper mx-auto" style="height:50px">
-                        <button type="button" class="monkee-font monkee-button white-on-dblue " onclick="mailingListJoined()" data-dismiss="modal">Sign up</button>
+                        <input type="submit" value="Sign Up" class="monkee-font monkee-button white-on-dblue" />
                     </div>
                 </div>
+                </form>
             </div>
         </div>
     </div>
