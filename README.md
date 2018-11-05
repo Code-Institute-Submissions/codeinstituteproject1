@@ -26,9 +26,9 @@ I Identified two users for this site. Existing, Long Term Fans of the Monkees an
 3. As a fan I should be able to listen to my favourite Monkees Tracks on the site.
 4. As a fan I should be able to watch my favourite Monkees Music Videos on the site.
 5. As a fan of the Monkees I should be able to contact them to book them for Wedding or Party.
-6. AS a fan of the Monkees I should be able to sign up for the Monkees mailing list, to receive updates about the Monkees.
+6. As a fan of the Monkees I should be able to sign up for the Monkees mailing list, to receive updates about the Monkees.
 7. As a fan of the Monkees I should be able to order Monkee Merch.
-8. AS a fan I should be able to view photos of the band.
+8. As a fan I should be able to view photos of the band.
 
 ##### New Fans
 *These could also apply to old fans, but I'm assuming that many of existing fans will already know this information*
@@ -76,76 +76,142 @@ The pages I included are:
 
 The pages appear in his order in the navbar.  I felt that the bios, music, videos and gallerys are of equal importance, so no particular order was applied. Bookus was put last as this would useually be a parting action on the site, so by putting it at the end of the navbar, users have to make a concious effort to select it, passing over all the links other content.
 
-The project uses a flat structure and every page is only 1 click away from every other page.
+The project uses a flat structure and every page is only 1 click away from every other page. 
 
-### skeleton - to be continued
+### Skeleton 
 
+I have included the wireframes for my site in the Doccumentation folder in this repository. Additionally I have included a more detailed write up of my designs and the ideas behind them on the linked webpages.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+**Mobile Wireframes**
+
+**Tablet Wireframes**
+
+**Laptop/Desktop** 
+
+### Surface
+
+#### Colours
+The first element of the projects final presentation was to select a colour scheme that would be suitable for the band. performing an Image search for the band led me to the logo below. An additonal browse of The monkees facebook page also led me to the image promoting the tour attached below.
+<p text-align="center">
+ <img src="./Assets/Images/monkees-logo.png" alt="Monkees Band Logo" width=400px>
+ <img src="./Assets/Images/TIParts/title.png" alt="Tour Logo for the Monkees" width=400px>
+</p>
+I used the colours from both of these images to create the colour scheme to be used on the site. 
+
+#### Typeface
+
+Throughout the site I have used the Google Font Martel for all the headings, sub-headings and buttons. This font was selected again based on the images and logos i found during intitial research. The tour image attached above used a tightly spaced font with large serifs. I couldn't find the actual font used, but felt the Martel offered a close enought replacement. 
+
+#### Iteractions
+
+Initially I had inted to use simpler buttons, my original designs used bordered text, which inverted on mouse over. During developement of the site this was changed, as I felt that it didn't intuite the purpose of the control clearly. The button that has been implemented now indicates that it can be pressed on mouse over, by pressing in a few pixels. Then pressing in even further when clicked. This is to model the sensation of actually pressing a button, whilst this isn't normally what a user expects as a hyperlink, it provides clear visual feedback that something has happened, which will aid UX.
+
+The social links will scale up on mouse over or when tapped, once again to provide visual feedback to the user to indicate that an action has been taken. 
+
+On the gallery page, the images will zoom in when moused over, again this is a visual effect design to show that the images are clickable, when clicked the image will be displayed inside a gallery. The gallery will display left and right buttons to allow the user to cycle through the images. Each Image will also display a caption. 
+
+I had intially intended to use modals for news items and for the booking page, however felt that adding the form to every page would added unessesary HTML to each page, and ultimately increase the load time for little gain. I also intended to use modals for more information about news items, however, again this felt like it would hinder UX. Ultimately the only modal used was for signing up to the mailing list.
+
+I had inteneded to have simpler interactions on the videos pages, and was going to imbed the clips from youtube straight onto the page. Unfortunately the video stills were very low resolution, and this wound up looking terrible. The album sleeves fade to black and white to indicate interactivity, additionally instructions have been included on the video page as I felt that some additional clarity may be required.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+#### All Page Features:
+* **Semantic HTML**: All pages have been written with semantic HTML in mind.
+* **Fixed Scroll to Top**: Each page has a fixed scroll to top icon, for ease of navigation.
+* **Responsive Design**: Site pages are designed to work on all sizes of device.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+#### Specific Features:
+* **Interactive Gallery ELements**: Videos and Images Gallery are served through an interactive gallery provided by fancybox.
+* **Downloadable Audio**: The site includes both streaming and downloadable audio for users
+* **Embedded Video**: The site has a number of youtube videos embedded into it.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Due to the scope of the course, and the stage at which I am at in my development career there are a couple of things that I did not implement.
 
 ### Features Left to Implement
-- Another feature idea
+* **Better Confirmation of Submission**: Both for the form and for the email address the confirmation of action given to the user in poor. Better confirmation should be provided. Changing the form into a thank you for your request, generating a request ID for further correspondance would be much better than just clearing the form.
+
+* **Custom Media Player**: The default HTML 5 audio player is not the most ellogent solution for playing audio, I would like to implement a better looking audio player - i know this could potentially be done through spotify, but unfortunately spotify is not yet available in Vietnam where i am based.
+
+* **Video Player**: I would like to implement the video page so it works like the one in the wireframe, with one large video and thumbnails for the others. I would then use JS or similar to switch the active video.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In this project the following technologies have been used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- **Bootstrap 4**
+   - The **Bootstrap 4** framework was used to help layout the webpage
+ 
+- **FontAwesome**
+   - **FontAwesome** provided the icons used on the page
 
+- **FancyBox**
+ - **Fancybox** was used to provide an interactive gallery on both the gallery page and on the video page of the site. 
+
+- **JQuery**
+  - **JQuery** was used as a part of the **Bootstrap 4** and **Fancybox** 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Throughout this project I have done regular testing. And have reloaded the pages a number of times after each addition and modification. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+My first round of testing was functionality testing in which I performed the following actions.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Testing the Links
+ - Checking the External Links
+ - Checking the External Links all Open in the new Tab
+ - Testing Internal Links
+ - Test Embedded Links to Video Content
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Testing the Forms
+ - Testing to see if the required fields are required
+ - Testing the Submit Button
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Validating the HTML on each page
+ - validate index
+ - validate bios
+ - validate music
+ - validate video
+ - validate book us
+ 
+To test the usablilty of the site I sent it to My Wife, My Mother and asked for peer review on the user centric design slack channel. Additionally at this stage I read through the website and looked for any spelling and grammar errors. (I also let my son test it, but he's only 10 months old, so his feedback wasn't that useful)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I tested the compatibility of my site first by by emulating different devices using the Dev tools in chrome as well as using the variable responsive setting to check at different breakpoints.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- checking to see if the images all scaled and maintained aspect ratio instead of streching
+- Checking to see if the responsive layout changed at the correct breakpoints
+- Checking to see if my media queries behaved as expected  
+
+I then tested it on different browsers. I have tested in Chrome, Firefox and Edge. Once I was sure my project wored on windows 10, I then tested it my laptop running Ubuntu 18.04, and on my phone running Android Oreo. Unforutnately i don't know anybody with a Mac, so have been unable to test my site on a Mac. 
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I have hosted my site on github pages, it can be accessed from the following url:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+https://kev20006.github.io/codeinstituteproject1/
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
+- All Bio Text Content was taken from wikipedia
+ - The Monkees - https://en.wikipedia.org/wiki/The_Monkees
+ - Micky Dolenz - https://en.wikipedia.org/wiki/Micky_Dolenz
+ - Michael Nesmith - https://en.wikipedia.org/wiki/Michael_Nesmith
+ - Davey Jones - https://en.wikipedia.org/wiki/Davy_Jones_(musician)
+ - Peter Tork - https://en.wikipedia.org/wiki/Peter_Tork
+ - Scroll to bottom button was modified from this w3schools link - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+ 
 ### Media
-- The photos used in this site were obtained from ...
-
+- Cartoon Image was taken from the official Monkees Website and then recoloured in photoshop. - https://www.monkees.com/
+- Gallery Images were taken from The Monkees IMDB Page - https://www.imdb.com/title/tt0060010/mediaindex?ref_=tt_pv_mi_sm
+- Other Images were taken from the Monkees Facebook Page - https://www.facebook.com/TheMonkees/
+- Merchandise Images were taken from - https://monkeesstore.warnermusic.com/
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- back to top button was inspired by code institutes website
+- My Homepage and much of my website was inspired by The Zack Brown Band's Website. 
+
+I have looked at the site upwards of 1000 times and still haven't ever listened to their music - https://www.zacbrownband.com/
