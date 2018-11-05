@@ -36,7 +36,7 @@ I Identified two users for this site. Existing, Long Term Fans of the Monkees an
 2. As a new fan I should be able to use the site to find the band and the band members social media pages. 
 
 ### Scope
-Using the user the above user storys and he project brief I identified the follwoing requirements: 
+Using the user the above user stories and he project brief I identified the follwoing requirements: 
 
 #### Functional Requirements
 1. The Project must be a series of static webpages or one large webpages with multiple sections
@@ -72,7 +72,7 @@ The pages I included are:
 
 **Gallery** - Another self explanatory page, users can find image galleries of the monkees on this page.
 
-**Bookus** - This page houses a form that the users can submit to make enquirees about booking the monkees.
+**Book-us** - This page houses a form that the users can submit to make enquirees about booking the monkees.
 
 The pages appear in his order in the navbar.  I felt that the bios, music, videos and gallerys are of equal importance, so no particular order was applied. Bookus was put last as this would useually be a parting action on the site, so by putting it at the end of the navbar, users have to make a concious effort to select it, passing over all the links other content.
 
@@ -86,7 +86,7 @@ I have included the wireframes for my site in the Doccumentation folder in this 
 
 [**Tablet Wireframes**](https://kev20006.github.io/codeinstituteproject1/Documentation-Files/tablet-wireframe.html)
 
-[**Laptop/Desktop**] (https://kev20006.github.io/codeinstituteproject1/Documentation-Files/desktop-wireframe.html)
+[**Laptop/Desktop**](https://kev20006.github.io/codeinstituteproject1/Documentation-Files/desktop-wireframe.html)
 
 ### Surface
 
@@ -173,6 +173,8 @@ Validating the HTML on each page
  - validate music
  - validate video
  - validate book us
+ 
+The Results of this testing can be found [**here**](https://kev20006.github.io/codeinstituteproject1/Documentation-Files/Testing.html)
  
 To test the usablilty of the site I sent it to My Wife, My Mother and asked for peer review on the user centric design slack channel. Additionally at this stage I read through the website and looked for any spelling and grammar errors. (I also let my son test it, but he's only 10 months old, so his feedback wasn't that useful)
 
