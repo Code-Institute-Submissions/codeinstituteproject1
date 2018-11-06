@@ -1,19 +1,17 @@
 # User Centric Frontend Development Milestone Project - Hey Hey We're the Monkees
 
-In this project I have created a new website for the band "The Monkees". The website is a one stop shop for all things Monkees. Fans
-can come and listen to their favourite tracks, watch videos and find links to the various social media platforms that their favourite
-Monkees use. Additionally new fans can come and find out information about the Monkees or find links to purchase cool Monkees merch to show the world how much they love the Monkees. 
+In this project I have created a new website for the band "The Monkees". The website is a one stop shop for all things Monkees. Fans can come and listen to their favourite tracks, watch videos and find links to the various social media platforms that their favourite Monkees use. Additionally new fans can come and find out information about the Monkees or find links to purchase cool Monkees merch to show the world how much they love the Monkees.
 
-In this project I have utilised mobile first design principles to create a responsive webpage that is intended to look good and
-and perform well on any size of device. I have also put good user experience at the front and center of all designs and have strived to create an intuitive and enjoyable journey through all things Monkee for my users. 
+In this project I have utilised mobile first design principles to create a responsive webpage that is intended to look good and and perform well on any size of device. I have also put good user experience at the front and center of all designs and have strived to create an intuitive and enjoyable journey through all things Monkee for my users.
  
 ## UX
 
 ### Strategy
 
-There are a number of reasons for creating this project. First and foremost it is to provide a convienent and easy to use resource for Fans of The Monkees to listen to music, watch videos and find up to date information about their favourite (or at least one of their favourite bands). Secondly it serves as a platform for the Monkees to promote their new material, their social media channels, and allow them to stay in touch with their fans. Finally users can use the site to arrange to have the Monkees play at their parties, weddings or other events.
+There are a number of reasons for creating this project. First and foremost it is to provide a convenient and easy to use resource for Fans of The Monkees to listen to music, watch videos and find up to date information about their favourite (or at least one of their favourite bands). Secondly it serves as a platform for the Monkees to promote their new material, their social media channels, and allow them to stay in touch with their fans. Finally users can use the site to arrange to have the Monkees play at their parties, weddings or other events.
 
-Our Key demographic are fans of the Monkees. Whilst this is not exactly the most specific demographic, there are a couple of common threads. Primarly that they love the band the Monkees. Therefore to help me identify my user stories I spoke to my family, friends and mentor aboout what they / I expect to find on a bands website and what I would like to do on a bands website. From this process, along with the specification document and research looking at other bands websites i identified the following user stories
+The Key demographic for this project are fans of the Monkees. Whilst this is not exactly the most specific demographic, there are a couple of common threads. Primarily that they love the band the Monkees. Therefore to help me identify my user stories I spoke to my family, friends and mentor about what they / I expect to find on a bands website and what I would like to do on a bands website. From this process, along with the specification document and research looking at other bands websites i identified the following user stories.
+
  
 
 #### User Stories
@@ -60,9 +58,9 @@ Using the user the above user stories and he project brief I identified the foll
 
 After considering the scope of my project I decided that it would be better to approach the project as a series of webpages as opposed to a single long pages in multiple sections. My concerns stemmed from the content requirements. I was worried that if there were lots of different types on media on one long page it might take a long time to load, and ultimately turn off users. I decided to structure my website as multiple pages.
 
-The pages I included are:
+#### The pages I included are:
 
-**Homepage** - AS the first page my users will see I decided to include information that I feel is most important on a bands website, namely tour dates, news, and new musical releases. This page also provides links to all the other subsequent pages.
+**Homepage** - As the first page my users will see I decided to include information that I feel is most important on a bands website, namely tour dates, news, and new musical releases. This page also provides links to all the other subsequent pages.
 
 **Bios** - A page for the new fans to learn about the Monkees
 
@@ -74,13 +72,14 @@ The pages I included are:
 
 **Book-us** - This page houses a form that the users can submit to make enquirees about booking the monkees.
 
-The pages appear in his order in the navbar.  I felt that the bios, music, videos and gallerys are of equal importance, so no particular order was applied. Bookus was put last as this would useually be a parting action on the site, so by putting it at the end of the navbar, users have to make a concious effort to select it, passing over all the links other content.
+The pages appear in his order in the navbar. I felt that the bios, music, videos and galleries are of equal importance, so no particular order was applied. Bookus was put last as this would usually be a parting action on the site, so by putting it at the end of the navbar, users have to make a conscious effort to select it, passing over all the links other content.
 
-The project uses a flat structure and every page is only 1 click away from every other page. 
+
+The project uses a flat structure and every page is only 1 click away from every other page.
 
 ### Skeleton 
 
-I have included the wireframes for my site in the Doccumentation folder in this repository. Additionally I have included a more detailed write up of my designs and the ideas behind them on the linked webpages.
+I have included the wireframes for my site in the Documentation folder in this repository. Additionally I have included a more detailed write up of my designs and the ideas behind them on the linked webpages.
 
 [**Mobile Wireframes**](https://kev20006.github.io/codeinstituteproject1/Documentation-Files/mobile-wireframe.html)
 
@@ -91,7 +90,8 @@ I have included the wireframes for my site in the Doccumentation folder in this 
 ### Surface
 
 #### Colours
-The first element of the projects final presentation was to select a colour scheme that would be suitable for the band. performing an Image search for the band led me to the logo below. An additonal browse of The monkees facebook page also led me to the image promoting the tour attached below.
+The first element of the projects final presentation was to select a colour scheme that would be suitable for the band. performing an Image search for the band led me to the logo below. An additional browse of The monkees facebook page also led me to the image promoting the tour attached below.
+
 <p text-align="center">
  <img src="./Assets/Images/monkees-logo.png" alt="Monkees Band Logo" width=400px>
  <img src="./Assets/Images/TIParts/title.png" alt="Tour Logo for the Monkees" width=400px>
@@ -100,19 +100,20 @@ I used the colours from both of these images to create the colour scheme to be u
 
 #### Typeface
 
-Throughout the site I have used the Google Font Martel for all the headings, sub-headings and buttons. This font was selected again based on the images and logos i found during intitial research. The tour image attached above used a tightly spaced font with large serifs. I couldn't find the actual font used, but felt the Martel offered a close enought replacement. 
+Throughout the site I have used the Google Font Martel for all the headings, subheadings and buttons. This font was selected again based on the images and logos i found during initial research. The tour image attached above used a tightly spaced font with large serifs. I couldn't find the actual font used, but felt the Martel offered a close enough replacement.
 
 #### Iteractions
 
-Initially I had inted to use simpler buttons, my original designs used bordered text, which inverted on mouse over. During developement of the site this was changed, as I felt that it didn't intuite the purpose of the control clearly. The button that has been implemented now indicates that it can be pressed on mouse over, by pressing in a few pixels. Then pressing in even further when clicked. This is to model the sensation of actually pressing a button, whilst this isn't normally what a user expects as a hyperlink, it provides clear visual feedback that something has happened, which will aid UX.
+Initially I had inted to use simpler buttons, my original designs used bordered text, which inverted on mouse over. During development of the site this was changed, as I felt that it didn't intuite the purpose of the control clearly. The button that has been implemented now indicates that it can be pressed on mouse over, by pressing in a few pixels. Then pressing in even further when clicked. This is to model the sensation of actually pressing a button, whilst this isn't normally what a user expects as a hyperlink, it provides clear visual feedback that something has happened, which will aid UX.
 
 The social links will scale up on mouse over or when tapped, once again to provide visual feedback to the user to indicate that an action has been taken. 
 
-On the gallery page, the images will zoom in when moused over, again this is a visual effect design to show that the images are clickable, when clicked the image will be displayed inside a gallery. The gallery will display left and right buttons to allow the user to cycle through the images. Each Image will also display a caption. 
+On the gallery page, the images will zoom in when moused over, again this is a visual effect design to show that the images are clickable, when clicked the image will be displayed inside a gallery. The gallery will display left and right buttons to allow the user to cycle through the images. Each Image will also display a caption.
 
-I had intially intended to use modals for news items and for the booking page, however felt that adding the form to every page would added unessesary HTML to each page, and ultimately increase the load time for little gain. I also intended to use modals for more information about news items, however, again this felt like it would hinder UX. Ultimately the only modal used was for signing up to the mailing list.
+I had initially intended to use modals for news items and for the booking page, however felt that adding the form to every page would added unnecessary HTML to each page, and ultimately increase the load time for little gain. I also intended to use modals for more information about news items, however, again this felt like it would hinder UX. Ultimately the only modal used was for signing up to the mailing list.
 
-I had inteneded to have simpler interactions on the videos pages, and was going to imbed the clips from youtube straight onto the page. Unfortunately the video stills were very low resolution, and this wound up looking terrible. The album sleeves fade to black and white to indicate interactivity, additionally instructions have been included on the video page as I felt that some additional clarity may be required.
+I had intended to have simpler interactions on the videos pages, and was going to imbed the clips from youtube straight onto the page. Unfortunately the video stills were very low resolution, and this wound up looking terrible. The album sleeves fade to black and white to indicate interactivity, additionally instructions have been included on the video page as I felt that some additional clarity may be required.
+
 
 ## Features
 
@@ -122,7 +123,7 @@ I had inteneded to have simpler interactions on the videos pages, and was going 
 * **Responsive Design**: Site pages are designed to work on all sizes of device.
  
 #### Specific Features:
-* **Interactive Gallery ELements**: Videos and Images Gallery are served through an interactive gallery provided by fancybox.
+* **Interactive Gallery Elements**: Videos and Images Gallery are served through an interactive gallery provided by fancybox.
 * **Downloadable Audio**: The site includes both streaming and downloadable audio for users
 * **Embedded Video**: The site has a number of youtube videos embedded into it.
 
@@ -131,7 +132,8 @@ Due to the scope of the course, and the stage at which I am at in my development
 ### Features Left to Implement
 * **Better Confirmation of Submission**: Both for the form and for the email address the confirmation of action given to the user in poor. Better confirmation should be provided. Changing the form into a thank you for your request, generating a request ID for further correspondance would be much better than just clearing the form.
 
-* **Custom Media Player**: The default HTML 5 audio player is not the most ellogent solution for playing audio, I would like to implement a better looking audio player - i know this could potentially be done through spotify, but unfortunately spotify is not yet available in Vietnam where i am based.
+* **Custom Media Player**: The default HTML5 audio player is not the most elegant solution for playing audio, I would like to implement a better looking audio player - i know this could potentially be done through spotify, but unfortunately an account is required for this, and I'm a Google Play Music user
+
 
 * **Video Player**: I would like to implement the video page so it works like the one in the wireframe, with one large video and thumbnails for the others. I would then use JS or similar to switch the active video.
 
@@ -176,7 +178,7 @@ Validating the HTML on each page
  
 The Results of this testing can be found [**here**](https://kev20006.github.io/codeinstituteproject1/Documentation-Files/Testing.html)
  
-To test the usablilty of the site I sent it to My Wife, My Mother and asked for peer review on the user centric design slack channel. Additionally at this stage I read through the website and looked for any spelling and grammar errors. (I also let my son test it, but he's only 10 months old, so his feedback wasn't that useful)
+To test the usability of the site I sent it to My Wife, My Mother and asked for peer review on the user centric design slack channel. Additionally at this stage I read through the website and looked for any spelling and grammar errors. (I also let my son test it, but he's only 10 months old, so his feedback wasn't that useful)
 
 I tested the compatibility of my site first by by emulating different devices using the Dev tools in chrome as well as using the variable responsive setting to check at different breakpoints.
 
@@ -184,8 +186,7 @@ I tested the compatibility of my site first by by emulating different devices us
 - Checking to see if the responsive layout changed at the correct breakpoints
 - Checking to see if my media queries behaved as expected  
 
-I then tested it on different browsers. I have tested in Chrome, Firefox and Edge. Once I was sure my project wored on windows 10, I then tested it my laptop running Ubuntu 18.04, and on my phone running Android Oreo. Unforutnately i don't know anybody with a Mac, so have been unable to test my site on a Mac. 
-
+I then tested it on different browsers. I have tested in Chrome, Firefox and Edge. Once I was sure my project worked on windows 10, I then tested it my laptop running Ubuntu 18.04, and on my phone running Android Oreo. Unfortunately i don't know anybody with a Mac, so have been unable to test my site on a Mac.
 
 ## Deployment
 
@@ -211,8 +212,8 @@ https://kev20006.github.io/codeinstituteproject1/
 - Gallery Images were taken from The Monkees IMDB Page - https://www.imdb.com/title/tt0060010/mediaindex?ref_=tt_pv_mi_sm
 - Other Images were taken from the Monkees Facebook Page - https://www.facebook.com/TheMonkees/
 - Merchandise Images were taken from - https://monkeesstore.warnermusic.com/
-### Acknowledgements
 
+### Acknowledgements
 - back to top button was inspired by code institutes website
 - My Homepage and much of my website was inspired by The [Zack Brown Band's Website](https://www.zacbrownband.com/).
 
