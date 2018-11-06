@@ -214,6 +214,6 @@ https://kev20006.github.io/codeinstituteproject1/
 ### Acknowledgements
 
 - back to top button was inspired by code institutes website
-- My Homepage and much of my website was inspired by The Zack Brown Band's Website. 
+- My Homepage and much of my website was inspired by The [Zack Brown Band's Website](https://www.zacbrownband.com/).
 
-I have looked at the site upwards of 1000 times and still haven't ever listened to their music - https://www.zacbrownband.com/
+

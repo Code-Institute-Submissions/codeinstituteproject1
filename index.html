@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="EN">
-<!-- *******************************************************************************************************************************-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,7 +60,7 @@
                     <!-- header text -->
                     <div class="col-12 monkee-intro">
                         <h1 class="monkee-font text-center title">Hey, Hey We're The Monkees</h1>
-                        <h2 class="monkee-font text-center sub-title">and people say we monkey around</h2>
+                        <h3 class="monkee-font text-center sub-title">and people say we monkey around</h3>
                         <div class="button-wrapper end-of-section">
                             <a class="mx-auto" href="./bios.html">
                                 <div class="monkee-font monkee-button white-on-red mx-auto"> 
@@ -79,6 +79,7 @@
             <div class="col-12">
                 <div class="row">
                     <div class="col-12 col-md-5 col-xl-3 offset-xl-2">
+
                         <img src="./Assets/Images/TIParts/title.png" class="mx-auto tour-logo" alt="Tour: The Mike and Mickey Show">
                     </div>
                     <div class="col-12 col-md-5 col-xl-4 dates">
@@ -146,9 +147,9 @@
                                 <h2 class="monkee-font title">
                                     All New Monkee Merch AVAILABLE NOW!
                                 </h2>
-                                <h2 class="text">
+                                <p class="text">
                                     Shop the Monkees store and get all of your favorite gear from shirts to albums and so much more!
-                                </h2>
+                                </p>
                             </div>
                             <div class=" mx-auto button-wrapper mt-5">
                                 <a class="mx-auto" href="https://monkeesstore.warnermusic.com/" target="_blank">
@@ -176,7 +177,8 @@
                                     The Official Monkees Fan Club!!
                                 </h2>
                                 <p class="text off-white">
-                                    Join the Monkee Troop today for priority access to shows, exclusive discounts in the online store, early entry to shows and more
+                                    Join the Monkee Troop today for priority access to shows, exclusive discounts in the online store,
+                                    early entry to shows and more
                                 </p>
                             </div>
                             <div class=" mx-auto button-wrapper mt-5">
@@ -209,7 +211,7 @@
                         <div class="row">
                             <!-- Album and Videos 1 -->
                             <article class="col-12 col-md-6 col-lg-4">
-                                <h2 class="monkee-font sub-title">More Greatest Hits</h2>
+                                <h2 class="monkee-font sub-title album-title">More Greatest Hits</h2>
                                 <img class="img-fluid media-image" src="./Assets/Images/album.jpg" alt="more greatest hits cover" />
                                 <div class="button-block end-of-section">
                                     <div class="button-wrapper d-inline-block">
@@ -237,7 +239,7 @@
                             </article>
                             <!-- Album and Videos 2 -->
                             <article class="col-12 col-md-6 col-lg-4 ">
-                                <h2 class="monkee-font sub-title">The Greatest Hits</h2>
+                                <h2 class="monkee-font sub-title album-title">The Greatest Hits</h2>
                                 <img class="img-fluid media-image" src="./Assets/Images/cover.jpg" alt="greatest hits cover" />
                                 <div class="button-block end-of-section">
                                     <div class=" button-wrapper d-inline-block">
@@ -384,19 +386,22 @@
         </div>
     </div>
     <!-- Importing JQuery, Popper and  Bootstrap 4 -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
     <!-- import back to to button -->
-    <script src="./Assets/Scripts/backToTop.js"></script>
+    <script src="./Assets/Scripts/Libs/backToTop.js"></script>
     <script>
         function soldOut() {
             alert("Sold Out, Sorry")
         }
 
-        function mailingListJoined() {
-            alert("You have been added to the Monkee Troop Mailing List, thank you")
-        }
     </script>
 
 </body>
